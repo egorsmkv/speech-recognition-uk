@@ -2,6 +2,8 @@
 
 The aim of this repository is to collect information and datasets for speech recognition in Ukrainian.
 
+Get touch with us in our Telegram group: https://t.me/speech_recognition_uk
+
 ## Datasets
 
 ### Companies
