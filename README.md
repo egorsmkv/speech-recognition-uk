@@ -10,4 +10,5 @@ The aim of this repository is to collect information and datasets for speech rec
 
 ### Community
 
-- An audiobook with normalized text https://drive.google.com/drive/folders/1Hegv_6DlGA7xyhSMPbYCwMVOJXqXAki-?usp=sharing
+- VoxForge Repository: http://www.repository.voxforge1.org/downloads/uk/Trunk/
+- An audiobook with normalized text: https://drive.google.com/drive/folders/1Hegv_6DlGA7xyhSMPbYCwMVOJXqXAki-?usp=sharing
