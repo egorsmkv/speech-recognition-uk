@@ -14,3 +14,4 @@ Get touch with us in our Telegram group: https://t.me/speech_recognition_uk
 
 - VoxForge Repository: http://www.repository.voxforge1.org/downloads/uk/Trunk/
 - An audiobook with normalized text: https://drive.google.com/drive/folders/1Hegv_6DlGA7xyhSMPbYCwMVOJXqXAki-?usp=sharing
+                        - добавлена - "Польова царівна аудиокнига"
