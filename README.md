@@ -6,7 +6,7 @@ Get touch with us in our Telegram group: https://t.me/speech_recognition_uk
 
 ## Datasets
 
-### Compiled dataset from different sources
+### Compiled dataset from different open sources + Companies + Community = 27.75GB
 
 - Mega: https://mega.nz/folder/T34DQSCL#Q1O8vcrX_8Qnp27Ge56_4A
 
