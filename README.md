@@ -13,6 +13,7 @@ Get touch with us in our Telegram group: https://t.me/speech_recognition_uk
 ### Companies
 
 - Mozilla Common Voice has the Ukrainian model: https://voice.mozilla.org/en/datasets
+- M-AILABS Ukrainian Corpus  Ukrainian: http://www.caito.de/data/Training/stt_tts/uk_UK.tgz
 
 ### Community
 
