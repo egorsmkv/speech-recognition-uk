@@ -4,6 +4,10 @@ The aim of this repository is to collect information and datasets for speech rec
 
 Get touch with us in our Telegram group: https://t.me/speech_recognition_uk
 
+## Implementations
+
+- Silero: https://github.com/snakers4/silero-models (demo code: https://github.com/egorsmkv/ua-silero-demo)
+
 ## Datasets
 
 ### Compiled dataset from different open sources + Companies + Community = 29.76GB / 260 hours 💪
