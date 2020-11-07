@@ -6,7 +6,7 @@ Get touch with us in our Telegram group: https://t.me/speech_recognition_uk
 
 ## Implementations
 
-- Silero: https://github.com/snakers4/silero-models (demo code: https://github.com/egorsmkv/ua-silero-demo)
+- Silero: https://github.com/snakers4/silero-models (demo code: https://github.com/egorsmkv/ua-silero-demo, also there is a demo as a Telegram bot: https://t.me/ukr_stt_bot)
 
 ## Datasets
 
