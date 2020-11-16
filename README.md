@@ -10,7 +10,7 @@ Get touch with us in our Telegram group: https://t.me/speech_recognition_uk
 
 ## Datasets
 
-### Compiled dataset from different open sources + Companies + Community = 30.11GB / 260 hours 💪
+### Compiled dataset from different open sources + Companies + Community = 34.21GB / 270 hours 💪
 
 - Mega: https://mega.nz/folder/T34DQSCL#Q1O8vcrX_8Qnp27Ge56_4A (use [MEGAcmd](https://github.com/meganz/MEGAcmd) to download, downloading in a browser has speed limitations)
 
