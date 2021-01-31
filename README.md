@@ -11,6 +11,10 @@ Get in touch with us in our Telegram group: https://t.me/speech_recognition_uk
 - VOSK v1: https://drive.google.com/file/d/1nzpXRd4Gtdi0YVxCFYzqtKKtw_tPZQfK/view?usp=sharing (an old model with less trained data)
 - [DeepSpeech](https://github.com/mozilla/DeepSpeech) using transfer learning from English model: https://github.com/robinhad/voice-recognition-ua
 
+## Development
+
+- How to train own model using Kaldi (in Russian): https://github.com/egorsmkv/speech-recognition-uk/blob/master/vosk-model-creation/INSTRUCTION.md
+
 ## Datasets
 
 ### Compiled dataset from different open sources + Companies + Community = 99.44GB / 800 hours 💪
