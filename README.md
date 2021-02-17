@@ -22,6 +22,7 @@ Get in touch with us in our Telegram group: https://t.me/speech_recognition_uk
 ### DeepSpeech
 
 - [DeepSpeech](https://github.com/mozilla/DeepSpeech) using transfer learning from English model: https://github.com/robinhad/voice-recognition-ua
+  - v0.3: https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.3
 
 ## Development
 
