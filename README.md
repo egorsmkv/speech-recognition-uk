@@ -33,7 +33,7 @@ Get in touch with us in our Telegram group: https://t.me/speech_recognition_uk
 ### Compiled dataset from different open sources + Companies + Community = 135.21GB / ~1000 hours 💪
 
 - Mega: https://mega.nz/folder/mmQjjaKT#TSzSw7bv97IUGrVD7QfMQw (use [MEGAcmd](https://github.com/meganz/MEGAcmd) to download, downloading in a browser has speed limitations)
-- Torrent file: https://git.io/Jtq5E (72.4 GB)
+- Torrent file: https://academictorrents.com/details/50f7a8e6157a9c2e38919afee0a11d8145e35556 (121.77 GB)
 
 ### Companies
 
