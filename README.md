@@ -31,10 +31,10 @@ Get in touch with us in our Telegram group: https://t.me/speech_recognition_uk
 
 ## Datasets
 
-### Compiled dataset from different open sources + Companies + Community = 135.21GB / ~1000 hours 💪
+### Compiled dataset from different open sources + Companies + Community = 188.31GB / ~1200 hours 💪
 
-- Mega: https://mega.nz/folder/mmQjjaKT#TSzSw7bv97IUGrVD7QfMQw (use [MEGAcmd](https://github.com/meganz/MEGAcmd) to download, downloading in a browser has speed limitations)
-- Torrent file: https://academictorrents.com/details/50f7a8e6157a9c2e38919afee0a11d8145e35556 (121.77 GB)
+- Storage Share powered by Nextcloud: https://dataset.ukrainianstt.ml/s/cAbcBeXtdz7znDN (use [Wget](https://www.gnu.org/software/wget) to download, downloading in a browser has speed limitations)
+- Torrent file: https://academictorrents.com/details/fcf8bb60c59e9eb583df003d54ed61776650beb8 (188.31 GB)
 
 ### Companies
 
