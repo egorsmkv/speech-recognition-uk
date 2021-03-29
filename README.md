@@ -4,6 +4,10 @@ The aim of this repository is to collect information and datasets for speech rec
 
 Get in touch with us in our Telegram group: https://t.me/speech_recognition_uk
 
+## Support Us on Patreon
+
+You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliakov
+
 ## Implementations
 
 ### Silero
