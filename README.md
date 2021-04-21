@@ -27,7 +27,8 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 ### DeepSpeech
 
 - [DeepSpeech](https://github.com/mozilla/DeepSpeech) using transfer learning from English model: https://github.com/robinhad/voice-recognition-ua
-  - v0.3: https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.3
+  - v0.4: https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.4 (1230 hours)
+  - v0.3: https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.3 (751 hours)
 
 ## Development
 
