@@ -24,7 +24,7 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 - VOSK v2: https://drive.google.com/file/d/1MdlN3JWUe8bpCR9A0irEr-Icc1WiPgZs/view?usp=sharing (339 mb, demo code: https://github.com/egorsmkv/vosk-ukrainian-demo)
 - VOSK v1: https://drive.google.com/file/d/1nzpXRd4Gtdi0YVxCFYzqtKKtw_tPZQfK/view?usp=sharing (87 mb, an old model with less trained data)
 
-**Note**: VOSK models are licensed under **Apache License 2.0**.
+**Note**: VOSK models are [licensed under **Apache License 2.0**](https://github.com/igorsitdikov/vosk-api/blob/master/COPYING).
 
 ### DeepSpeech
 
