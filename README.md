@@ -51,3 +51,7 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 ### Community
 
 - VoxForge Repository: http://www.repository.voxforge1.org/downloads/uk/Trunk/
+
+## Other
+
+- Speech Dataset with Ukrainian: https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/
