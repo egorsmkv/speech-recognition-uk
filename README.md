@@ -10,13 +10,18 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 
 ## Implementations
 
-### Silero
-
+<details><summary>Silero</summary>
+<p>
+  
 - Silero v1: https://github.com/snakers4/silero-models (demo code: https://github.com/egorsmkv/ua-silero-demo, also there is a demo as a Telegram bot: https://t.me/ukr_stt_bot)
 - Silero Models ([link](https://github.com/snakers4/silero-models)), a `ua_v3` xxsmall model, see provided colab notebooks and examples, some performance benchmarks [here](https://github.com/snakers4/silero-models/wiki/Performance-Benchmarks#speed-benchmarks), full optimized / quantized model is ~30MB w/o major quality loss
 
-### VOSK
+  </p>
+</details>
 
+<details><summary>VOSK</summary>
+<p>
+  
 - VOSK v3 nano (with dynamic graph): https://drive.google.com/file/d/1Pwlxmtz7SPPm1DThBPM3u66nH6-Dsb1n/view?usp=sharing (73 mb)
 - VOSK v3 small (with dynamic graph): https://drive.google.com/file/d/1Zkambkw2hfpLbMmpq2AR04-I7nhyjqtd/view?usp=sharing (133 mb)
 - VOSK v3 (with dynamic graph): https://drive.google.com/file/d/173cqiJUU0GUG4R-T5nziftQSU03Hmi5c/view?usp=sharing (345 mb)
@@ -26,11 +31,29 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 
 **Note**: VOSK models are [licensed under **Apache License 2.0**](https://github.com/igorsitdikov/vosk-api/blob/master/COPYING).
 
-### DeepSpeech
+</p>
+</details>
+
+<details><summary>DeepSpeech</summary>
+<p>
 
 - [DeepSpeech](https://github.com/mozilla/DeepSpeech) using transfer learning from English model: https://github.com/robinhad/voice-recognition-ua
   - v0.4: https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.4 (1230 hours)
   - v0.3: https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.3 (751 hours)
+
+</p>
+</details>
+
+## TTS
+
+<details><summary>Coqui TTS</summary>
+<p>
+
+- [Coqui TTS](https://github.com/coqui-ai/TTS) using M-AILABS `sumska` voice: https://github.com/robinhad/ukrainian-tts
+  - v0.0.1: https://github.com/robinhad/ukrainian-tts/releases/tag/v0.0.1 (14145 steps)
+
+</p>
+</details>
 
 ## Development
 
