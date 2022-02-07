@@ -56,6 +56,14 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 
 ## TTS
 
+<details><summary>Silero TTS</summary>
+<p>
+
+- [Silero TTS](https://github.com/snakers4/silero-models#text-to-speech), the voice "Mykyta"
+
+</p>
+</details>
+
 <details><summary>Coqui TTS</summary>
 <p>
 
