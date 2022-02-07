@@ -15,6 +15,7 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
   
 - 1B params: https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-lm (demo code: https://github.com/egorsmkv/wav2vec2-uk-demo)
 - 300M params: https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-lm
+- 300M params (but without language model): https://huggingface.co/robinhad/wav2vec2-xls-r-300m-uk
 
   </p>
 </details>
