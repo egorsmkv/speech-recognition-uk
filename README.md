@@ -67,8 +67,8 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 <details><summary>Coqui TTS</summary>
 <p>
 
-- [Coqui TTS](https://github.com/coqui-ai/TTS) using M-AILABS `sumska` voice: https://github.com/robinhad/ukrainian-tts
-  - v0.0.1: https://github.com/robinhad/ukrainian-tts/releases/tag/v0.0.1 (14145 steps)
+- [Coqui TTS](https://github.com/coqui-ai/TTS) using M-AILABS dataset: https://github.com/robinhad/ukrainian-tts
+  - v1.0.0: https://github.com/robinhad/ukrainian-tts/releases/tag/v1.0.0 (200000 steps)
 
 </p>
 </details>
