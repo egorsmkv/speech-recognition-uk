@@ -56,11 +56,16 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 
 ## TTS
 
+Test sentence:  
+`Ка́м'яне́ць-Поді́льський - місто в Хмельницькій області України, центр Кам'янець-Подільської міської об'єднаної територіальної громади і Кам'янець-Подільського району.`
+
 <details><summary>Silero TTS</summary>
 <p>
 
 - [Silero TTS](https://github.com/snakers4/silero-models#text-to-speech), the voice "Mykyta"
 
+https://user-images.githubusercontent.com/5759207/153086535-cfd923f4-e82a-496b-936c-e927589605af.mp4
+  
 </p>
 </details>
 
@@ -69,6 +74,8 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 
 - [Coqui TTS](https://github.com/coqui-ai/TTS) using M-AILABS dataset: https://github.com/robinhad/ukrainian-tts
   - v1.0.0: https://github.com/robinhad/ukrainian-tts/releases/tag/v1.0.0 (200000 steps)
+
+https://user-images.githubusercontent.com/5759207/153086570-67550476-ec87-4422-bd62-9e9afcffbde5.mp4
 
 </p>
 </details>
