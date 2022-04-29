@@ -8,7 +8,7 @@ Get in touch with us in our Telegram group: https://t.me/speech_recognition_uk
 
 You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliakov
 
-## Implementations
+## 🎤 Implementations
 
 <details><summary>wav2vec2</summary>
 <p>
@@ -18,6 +18,14 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 - 300M params (but without language model): https://huggingface.co/robinhad/wav2vec2-xls-r-300m-uk
 
 You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
+  
+  </p>
+</details>
+
+<details><summary>data2vec</summary>
+<p>
+  
+- data2vec-large: https://huggingface.co/robinhad/data2vec-large-uk
   
   </p>
 </details>
@@ -56,7 +64,7 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 </p>
 </details>
 
-## TTS
+## 📢 TTS
 
 Test sentence with stresses:
 
@@ -93,11 +101,11 @@ https://user-images.githubusercontent.com/5759207/153086570-67550476-ec87-4422-b
 </p>
 </details>
 
-## Development
+## 📖 Development
 
 - How to train own model using Kaldi (in Russian): https://github.com/egorsmkv/speech-recognition-uk/blob/master/vosk-model-creation/INSTRUCTION.md
 
-## Datasets
+## 📚 Datasets
 
 ### Compiled dataset from different open sources + Companies + Community = 188.31GB / ~1200 hours 💪
 
