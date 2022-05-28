@@ -121,7 +121,7 @@ https://user-images.githubusercontent.com/96498856/170762023-d4b3f6d7-d756-4cb7-
 
 ### Compiled dataset from different open sources + Companies + Community = 188.31GB / ~1200 hours 💪
 
-- Storage Share powered by Nextcloud: https://dataset.ukrainianstt.ml/s/cAbcBeXtdz7znDN (use [Wget](https://www.gnu.org/software/wget) to download, downloading in a browser has speed limitations)
+- Storage Share powered by Nextcloud: https://nx16725.your-storageshare.de/s/cAbcBeXtdz7znDN (use [Wget](https://www.gnu.org/software/wget) to download, downloading in a browser has speed limitations)
 - Torrent file: https://academictorrents.com/details/fcf8bb60c59e9eb583df003d54ed61776650beb8 (188.31 GB)
 
 ### Companies
