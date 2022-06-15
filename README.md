@@ -45,7 +45,7 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   
 - VOSK v3 nano (with dynamic graph): https://drive.google.com/file/d/1Pwlxmtz7SPPm1DThBPM3u66nH6-Dsb1n/view?usp=sharing (73 mb)
 - VOSK v3 small (with dynamic graph): https://drive.google.com/file/d/1Zkambkw2hfpLbMmpq2AR04-I7nhyjqtd/view?usp=sharing (133 mb)
-- VOSK v3 (with dynamic graph): https://drive.google.com/file/d/173cqiJUU0GUG4R-T5nziftQSU03Hmi5c/view?usp=sharing (345 mb)
+- VOSK v3 (with dynamic graph): https://drive.google.com/file/d/12AdVn-EWFwEJXLzNvM0OB-utSNf7nJ4Q/view?usp=sharing (345 mb)
 - VOSK v3: https://drive.google.com/file/d/17umTgQuvvWyUiCJXET1OZ3kWNfywPjW2/view?usp=sharing (343 mb)
 - VOSK v2: https://drive.google.com/file/d/1MdlN3JWUe8bpCR9A0irEr-Icc1WiPgZs/view?usp=sharing (339 mb, demo code: https://github.com/egorsmkv/vosk-ukrainian-demo)
 - VOSK v1: https://drive.google.com/file/d/1nzpXRd4Gtdi0YVxCFYzqtKKtw_tPZQfK/view?usp=sharing (87 mb, an old model with less trained data)
