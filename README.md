@@ -94,11 +94,11 @@ This benchmark uses Common Voice 7 test split.
 |-------|-----|-----|------------|
 | Yehor/wav2vec2-xls-r-1b-uk-with-lm | 0.1245 | 0.0244 | 87.55% |
 | Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm | 0.1142 | 0.0229 | 88.58% |
-| arampacha/wav2vec2-xls-r-1b-uk | 0.1214 | 0.0244 | 87.86% |
 | Yehor/wav2vec2-xls-r-300m-uk-with-lm | 0.1751 | 0.0394 | 82.49% |
 | Yehor/wav2vec2-xls-r-300m-uk-with-news-lm | 0.1562 | 0.0328 | 84.38% |
 | Yehor/wav2vec2-xls-r-300m-uk-with-news-lm | 0.1526 | 0.0307 | 84.74% |
 | Yehor/wav2vec2-xls-r-base-uk-with-small-lm | 0.303 | 0.0818 | 69.7% |
+| arampacha/wav2vec2-xls-r-1b-uk | 0.1214 | 0.0244 | 87.86% |
 | robinhad/wav2vec2-xls-r-300m-uk | 0.3111 | 0.0655 | 68.89% |
 | robinhad/data2vec-large-uk | 0.3549 | 0.0859 | 64.51% |
 | VOSK v3 | 0.2537 | 0.0916 | 74.63% |
