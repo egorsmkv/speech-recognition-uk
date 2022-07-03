@@ -99,9 +99,9 @@ https://user-images.githubusercontent.com/5759207/153086535-cfd923f4-e82a-496b-9
 <details><summary>Coqui TTS</summary>
 <p>
 
-- [Coqui TTS](https://github.com/coqui-ai/TTS) using M-AILABS dataset: https://github.com/robinhad/ukrainian-tts
-  - v2.0.0-beta: https://github.com/robinhad/ukrainian-tts/releases/tag/v2.0.0-beta (150000 steps)
+- v1.0.0 using M-AILABS dataset: https://github.com/robinhad/ukrainian-tts/releases/tag/v1.0.0 (200000 steps)
 
+- v2.0.0-beta using Mykyta dataset: https://github.com/robinhad/ukrainian-tts/releases/tag/v2.0.0-beta (150000 steps)
 
 https://user-images.githubusercontent.com/5759207/167480982-275d8ca0-571f-4d21-b8d7-3776b3091956.mp4
 
