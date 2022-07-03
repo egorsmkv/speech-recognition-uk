@@ -101,6 +101,7 @@ This benchmark uses Common Voice 7 test split.
 | arampacha/wav2vec2-xls-r-1b-uk | 0.1214 | 0.0244 | 87.86% |
 | robinhad/wav2vec2-xls-r-300m-uk | 0.3111 | 0.0655 | 68.89% |
 | robinhad/data2vec-large-uk | 0.3549 | 0.0859 | 64.51% |
+| speechbrain/m-ctc-t-large | 0.603 | 0.1391 | 39.7% |
 | VOSK v3 | 0.2537 | 0.0916 | 74.63% |
 | Silero v3 | 0.2318 | - | 76.82% |
 
