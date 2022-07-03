@@ -1,8 +1,10 @@
 # Speech Recognition for Ukrainian 🇺🇦
 
-The aim of this repository is to collect information and datasets for speech recognition in Ukrainian.
+The goal of this repository is to collect information and datasets for automatic speech recognition (speech-to-text) in Ukrainian.
 
-Get in touch with us in our Telegram group: https://t.me/speech_recognition_uk
+Also, this repository contains information about speech synthesizing (text-to-speech) for Ukrainian.
+
+**Get in touch with us in our Telegram group**: https://t.me/speech_recognition_uk
 
 ## Support Us on Patreon
 
