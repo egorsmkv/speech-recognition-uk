@@ -4,13 +4,15 @@ The goal of this repository is to collect information and datasets for automatic
 
 Also, this repository contains information about speech synthesis (text-to-speech) for Ukrainian.
 
-**Get in touch with us in our Telegram group**: https://t.me/speech_recognition_uk
+**Join our Speech Recognition Group in Telegram**: https://t.me/speech_recognition_uk
 
 ## Support Us on Patreon
 
 You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliakov
 
-## 🎤 Implementations
+# 🎤 Speech-to-Text
+
+## 💡 Implementations
 
 <details><summary>wav2vec2</summary>
 <p>
@@ -75,7 +77,32 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 </p>
 </details>
 
-## 📢 TTS
+## 📖 Development
+
+- How to train own model using Kaldi (in Russian): https://github.com/egorsmkv/speech-recognition-uk/blob/master/vosk-model-creation/INSTRUCTION.md
+
+## 📚 Datasets
+
+### Compiled dataset from different open sources + Companies + Community = 188.31GB / ~1200 hours 💪
+
+- Storage Share powered by Nextcloud: https://nx16725.your-storageshare.de/s/cAbcBeXtdz7znDN (use [Wget](https://www.gnu.org/software/wget) to download, downloading in a browser has speed limitations)
+- Torrent file: https://academictorrents.com/details/fcf8bb60c59e9eb583df003d54ed61776650beb8 (188.31 GB)
+
+## Companies
+
+- Mozilla Common Voice has the Ukrainian model: https://commonvoice.mozilla.org/uk/datasets
+- M-AILABS Ukrainian Corpus  Ukrainian: http://www.caito.de/data/Training/stt_tts/uk_UK.tgz
+
+## Community
+
+- VoxForge Repository: http://www.repository.voxforge1.org/downloads/uk/Trunk/
+
+## Other
+
+- Speech Dataset with Ukrainian: https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/
+
+
+# 📢 Text-to-Speech
 
 Test sentence with stresses:
 
@@ -89,7 +116,7 @@ Without stresses:
 Кам'янець-Подільський - місто в Хмельницькій області України, центр Кам'янець-Подільської міської об'єднаної територіальної громади і Кам'янець-Подільського району.
 ```
 
-### Models
+## 💡 Implementations
 
 <details><summary>Silero TTS</summary>
 <p>
@@ -122,27 +149,3 @@ https://user-images.githubusercontent.com/96498856/170762023-d4b3f6d7-d756-4cb7-
 
 </p>
 </details>
-
-## 📖 Development
-
-- How to train own model using Kaldi (in Russian): https://github.com/egorsmkv/speech-recognition-uk/blob/master/vosk-model-creation/INSTRUCTION.md
-
-## 📚 Datasets
-
-### Compiled dataset from different open sources + Companies + Community = 188.31GB / ~1200 hours 💪
-
-- Storage Share powered by Nextcloud: https://nx16725.your-storageshare.de/s/cAbcBeXtdz7znDN (use [Wget](https://www.gnu.org/software/wget) to download, downloading in a browser has speed limitations)
-- Torrent file: https://academictorrents.com/details/fcf8bb60c59e9eb583df003d54ed61776650beb8 (188.31 GB)
-
-### Companies
-
-- Mozilla Common Voice has the Ukrainian model: https://commonvoice.mozilla.org/uk/datasets
-- M-AILABS Ukrainian Corpus  Ukrainian: http://www.caito.de/data/Training/stt_tts/uk_UK.tgz
-
-### Community
-
-- VoxForge Repository: http://www.repository.voxforge1.org/downloads/uk/Trunk/
-
-## Other
-
-- Speech Dataset with Ukrainian: https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/
