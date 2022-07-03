@@ -85,6 +85,20 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 </p>
 </details>
 
+## 📊 Benchmarks
+
+This benchmark uses Common Voice 7 test split.
+
+| Model | WER | CER | Quality, % |
+|-------|-----|-----|------------|
+| Yehor/wav2vec2-xls-r-1b-uk-with-lm | 0.1245 | 0.0244 | 87.55% |
+| Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm | 0.1142 | 0.0229 | 88.58% |
+| arampacha/wav2vec2-xls-r-1b-uk | 0.1214 | 0.0244 | 87.86% |
+| Yehor/wav2vec2-xls-r-300m-uk-with-lm | 0.1751 | 0.0394 | 82.49% |
+| robinhad/wav2vec2-xls-r-300m-uk | 0.3111 | 0.0655 | 68.89% |
+| VOSK v3 | 0.2537 | 0.0916 | 74.63% |
+| Silero v3 | 0.2318 | - | 76.82% |
+
 ## 📖 Development
 
 - How to train own model using Kaldi (in Russian): https://github.com/egorsmkv/speech-recognition-uk/blob/master/vosk-model-creation/INSTRUCTION.md
