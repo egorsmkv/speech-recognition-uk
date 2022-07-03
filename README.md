@@ -16,6 +16,8 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 - 1B params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-lm (demo code: https://github.com/egorsmkv/wav2vec2-uk-demo)
 - 1B params (with language model based on News texts): https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-news-lm
 - 1B params (with binary language model based on News texts): https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm
+- 1B params (with language model: OSCAR): https://huggingface.co/arampacha/wav2vec2-xls-r-1b-uk
+- 1B params (with language model: OSCAR): https://huggingface.co/arampacha/wav2vec2-xls-r-1b-uk-cv
 - 300M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-lm
 - 300M params (but without language model): https://huggingface.co/robinhad/wav2vec2-xls-r-300m-uk
 - 300M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-small-lm
