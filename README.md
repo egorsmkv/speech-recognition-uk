@@ -13,12 +13,15 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 <details><summary>wav2vec2</summary>
 <p>
   
-- 1B params: https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-lm (demo code: https://github.com/egorsmkv/wav2vec2-uk-demo)
-- 300M params: https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-lm
+- 1B params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-lm (demo code: https://github.com/egorsmkv/wav2vec2-uk-demo)
+- 1B params (with language model based on News texts): https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-news-lm
+- 1B params (with binary language model based on News texts): https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm
+- 300M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-lm
 - 300M params (but without language model): https://huggingface.co/robinhad/wav2vec2-xls-r-300m-uk
-- 300M params (with language model): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-small-lm
-- 90M params (with language model): https://huggingface.co/robinhad/wav2vec2-xls-r-300m-uk
-- ONNX model: https://github.com/egorsmkv/ukrainian-onnx-model
+- 300M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-small-lm
+- 300M params (with language model based on News texts): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-news-lm
+- 300M params (with language model based on Wikipedia texts): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-wiki-lm
+- ONNX model (1B and 300M models): https://github.com/egorsmkv/ukrainian-onnx-model
 
 You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   
