@@ -27,6 +27,7 @@ You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliak
 - 300M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-small-lm
 - 300M params (with language model based on News texts): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-news-lm
 - 300M params (with language model based on Wikipedia texts): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-wiki-lm
+- 90M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-base-uk-with-small-lm
 - ONNX model (1B and 300M models): https://github.com/egorsmkv/ukrainian-onnx-model
 
 You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
@@ -97,6 +98,7 @@ This benchmark uses Common Voice 7 test split.
 | Yehor/wav2vec2-xls-r-300m-uk-with-lm | 0.1751 | 0.0394 | 82.49% |
 | Yehor/wav2vec2-xls-r-300m-uk-with-news-lm | 0.1562 | 0.0328 | 84.38% |
 | Yehor/wav2vec2-xls-r-300m-uk-with-news-lm | 0.1526 | 0.0307 | 84.74% |
+| Yehor/wav2vec2-xls-r-base-uk-with-small-lm | 0.303 | 0.0818 | 69.7% |
 | robinhad/wav2vec2-xls-r-300m-uk | 0.3111 | 0.0655 | 68.89% |
 | VOSK v3 | 0.2537 | 0.0916 | 74.63% |
 | Silero v3 | 0.2318 | - | 76.82% |
