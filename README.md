@@ -77,6 +77,14 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 </p>
 </details>
 
+<details><summary>M-CTC-T</summary>
+<p>
+
+- m-ctc-t-large: https://huggingface.co/speechbrain/m-ctc-t-large
+
+</p>
+</details>
+
 ## 📖 Development
 
 - How to train own model using Kaldi (in Russian): https://github.com/egorsmkv/speech-recognition-uk/blob/master/vosk-model-creation/INSTRUCTION.md
