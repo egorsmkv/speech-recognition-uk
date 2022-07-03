@@ -64,6 +64,7 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 <p>
 
 - [DeepSpeech](https://github.com/mozilla/DeepSpeech) using transfer learning from English model: https://github.com/robinhad/voice-recognition-ua
+  - v0.5: https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.5 (1230+ hours)
   - v0.4: https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.4 (1230 hours)
   - v0.3: https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.3 (751 hours)
 
