@@ -5,6 +5,7 @@ The goal of this repository is to collect information and datasets for automatic
 Also, this repository contains information about speech synthesis (text-to-speech) for Ukrainian.
 
 **Join our Speech Recognition Group in Telegram**: https://t.me/speech_recognition_uk
+**Join our Speech Synthesis Group in Telegram**: https://t.me/speech_synthesis_uk
 
 ## Support Us on Patreon
 
