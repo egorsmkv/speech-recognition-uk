@@ -7,9 +7,12 @@ Also, this repository contains information about speech synthesis (text-to-speec
 - **Join our Speech Recognition Group in Telegram**: https://t.me/speech_recognition_uk
 - **Join our Speech Synthesis Group in Telegram**: https://t.me/speech_synthesis_uk
 
-## Support Us on Patreon
+## Donate
 
-You can support us by donation on Patreon: https://www.patreon.com/yehor_smoliakov
+You can support our work by donation:
+
+- via Monobank: https://send.monobank.ua/jar/3Saxixsdua
+- on Patreon: https://www.patreon.com/yehor_smoliakov
 
 # 🎤 Speech-to-Text
 
