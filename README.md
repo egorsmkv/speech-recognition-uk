@@ -29,6 +29,7 @@ You can support our work by donation:
 - 300M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-lm
 - 300M params (but without language model): https://huggingface.co/robinhad/wav2vec2-xls-r-300m-uk
 - 300M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-small-lm
+- 300M params (with language model based on small portion of data) and noised data: https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-small-lm-noisy
 - 300M params (with language model based on News texts): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-news-lm
 - 300M params (with language model based on Wikipedia texts): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-wiki-lm
 - 90M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-base-uk-with-small-lm
