@@ -133,6 +133,11 @@ This benchmark uses Common Voice 7 test split.
 - Mozilla Common Voice has the Ukrainian dataset: https://commonvoice.mozilla.org/uk/datasets
 - M-AILABS Ukrainian Corpus  Ukrainian: http://www.caito.de/data/Training/stt_tts/uk_UK.tgz
 
+## Noised Common Voice 10
+
+- Transcriptions: https://www.dropbox.com/s/ohj3y2cq8f4207a/transcriptions.zip?dl=0
+- Audio files: https://www.dropbox.com/s/v8crgclt9opbrv1/data.zip?dl=0
+
 ## Community
 
 - VoxForge Repository: http://www.repository.voxforge1.org/downloads/uk/Trunk/
