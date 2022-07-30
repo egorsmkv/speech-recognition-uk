@@ -117,6 +117,7 @@ This benchmark uses Common Voice 7 test split.
 
 - How to train own model using Kaldi (in Russian): https://github.com/egorsmkv/speech-recognition-uk/blob/master/vosk-model-creation/INSTRUCTION.md
 - How to train a KenLM model based on Ukrainian Wikipedia data: https://github.com/egorsmkv/ukwiki-kenlm
+- Export a traced JIT version of wav2vec2 models: https://github.com/egorsmkv/wav2vec2-jit
 
 ## 📚 Datasets
 
