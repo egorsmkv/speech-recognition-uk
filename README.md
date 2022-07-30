@@ -196,7 +196,7 @@ https://user-images.githubusercontent.com/96498856/170762023-d4b3f6d7-d756-4cb7-
 </p>
 </details>
 
-## 💡 Related works
+## ⭐ Related works
 
 ### Accentors
 
