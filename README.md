@@ -49,6 +49,14 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   </p>
 </details>
 
+<details><summary>Citrinet</summary>
+<p>
+  
+- NVIDIA Streaming Citrinet 1024 (uk): https://huggingface.co/nvidia/stt_uk_citrinet_1024_gamma_0_25
+  
+  </p>
+</details>
+
 <details><summary>Silero</summary>
 <p>
 
@@ -99,13 +107,14 @@ This benchmark uses Common Voice 7 test split.
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
 | Yehor/wav2vec2-xls-r-1b-uk-with-lm | 0.1245 | 0.0244 | 87.55% |
-| Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm | 0.1142 | 0.0229 | 88.58% |
+| Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm | 0.1142 | 0.0229 | **88.58%** |
 | Yehor/wav2vec2-xls-r-300m-uk-with-lm | 0.1751 | 0.0394 | 82.49% |
 | Yehor/wav2vec2-xls-r-300m-uk-with-news-lm | 0.118 | 0.0251 | 88.2% |
-| Yehor/wav2vec2-xls-r-300m-uk-with-small-lm | 0.0706 | 0.0169 | 92.94% |
+| Yehor/wav2vec2-xls-r-300m-uk-with-small-lm | 0.0706 | 0.0169 | **92.94%** |
 | Yehor/wav2vec2-xls-r-300m-uk-with-wiki-lm | 0.1283 | 0.0267 | 87.17% |
 | Yehor/wav2vec2-xls-r-base-uk-with-small-lm | 0.303 | 0.0818 | 69.7% |
 | Yehor/wav2vec2-xls-r-base-uk-with-cv-lm | 0.13 | 0.0418 | 87% |
+| nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0634 | 0.0124 | **93.66%** |
 | arampacha/wav2vec2-xls-r-1b-uk | 0.1214 | 0.0244 | 87.86% |
 | robinhad/wav2vec2-xls-r-300m-uk | 0.3111 | 0.0655 | 68.89% |
 | robinhad/data2vec-large-uk | 0.3549 | 0.0859 | 64.51% |
