@@ -206,6 +206,10 @@ https://user-images.githubusercontent.com/96498856/170762023-d4b3f6d7-d756-4cb7-
 </p>
 </details>
 
+## 📚 Datasets
+
+- Voice "LADA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/lada
+
 ## ⭐ Related works
 
 ### Accentors
