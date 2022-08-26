@@ -53,6 +53,7 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 <p>
   
 - NVIDIA Streaming Citrinet 1024 (uk): https://huggingface.co/nvidia/stt_uk_citrinet_1024_gamma_0_25
+- NVIDIA Streaming Citrinet 512 (uk): https://huggingface.co/NeonBohdan/stt_uk_citrinet_512_gamma_0_25
   
   </p>
 </details>
