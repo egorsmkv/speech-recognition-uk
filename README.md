@@ -159,6 +159,11 @@ This benchmark uses Common Voice 7 test split.
 
 - Speech Dataset with Ukrainian: https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/
 
+## ⭐ Related works
+
+### Language models
+
+- Ukrainain LMs: https://huggingface.co/Yehor/kenlm-ukrainian
 
 # 📢 Text-to-Speech
 
