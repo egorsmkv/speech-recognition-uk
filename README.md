@@ -163,7 +163,7 @@ This benchmark uses Common Voice 7 test split.
 
 ### Language models
 
-- Ukrainain LMs: https://huggingface.co/Yehor/kenlm-ukrainian
+- Ukrainian LMs: https://huggingface.co/Yehor/kenlm-ukrainian
 
 # 📢 Text-to-Speech
 
