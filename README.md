@@ -58,6 +58,22 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   </p>
 </details>
 
+<details><summary>ContextNet</summary>
+<p>
+  
+- NVIDIA Streaming ContextNet 512 (uk): https://huggingface.co/theodotus/stt_uk_contextnet_512
+  
+  </p>
+</details>
+
+<details><summary>Squeezeformer</summary>
+<p>
+  
+- Squeezeformer-CTC XS: https://huggingface.co/theodotus/stt_uk_squeezeformer_ctc_xs
+  
+  </p>
+</details>
+
 <details><summary>Silero</summary>
 <p>
 
