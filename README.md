@@ -45,8 +45,7 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 <p>
   
 - data2vec-large: https://huggingface.co/robinhad/data2vec-large-uk
-  
-  </p>
+</p>
 </details>
 
 <details><summary>Citrinet</summary>
@@ -56,8 +55,7 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 - NVIDIA Streaming Citrinet 512 (uk): https://huggingface.co/NeonBohdan/stt_uk_citrinet_512_gamma_0_25
     - Demo 1: https://huggingface.co/spaces/theodotus/streaming-asr-uk
     - Demo 2: https://huggingface.co/spaces/theodotus/buffered-asr-uk
-  
-  </p>
+</p>
 </details>
 
 <details><summary>ContextNet</summary>
@@ -135,6 +133,7 @@ This benchmark uses Common Voice 7 test split.
 | Yehor/wav2vec2-xls-r-base-uk-with-cv-lm | 0.13 | 0.0418 | 87% |
 | nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0517 | 0.0115 | **94.83%** |
 | NeonBohdan/stt_uk_citrinet_512_gamma_0_25 | 0.0828 | 0.0187 | **91.72%** |
+| theodotus/stt_uk_contextnet_512 | 0.0875 | 0.0199 | **91.25%** |
 | arampacha/wav2vec2-xls-r-1b-uk | 0.1214 | 0.0244 | 87.86% |
 | robinhad/wav2vec2-xls-r-300m-uk | 0.3111 | 0.0655 | 68.89% |
 | robinhad/data2vec-large-uk | 0.3549 | 0.0859 | 64.51% |
