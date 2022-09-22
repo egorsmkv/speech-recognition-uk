@@ -149,6 +149,7 @@ This benchmark uses Common Voice 7 test split.
 | speechbrain/m-ctc-t-large | 0.603 | 0.1391 | 39.7% |
 | VOSK v3 | 0.2537 | 0.0916 | 74.63% |
 | Silero v3 | 0.2318 | - | 76.82% |
+| whisper (base) | 0.5578 | 0.1689 | 44.22% |
 
 ## 📖 Development
 
