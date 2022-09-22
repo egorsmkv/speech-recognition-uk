@@ -133,7 +133,8 @@ This benchmark uses Common Voice 7 test split.
 | Yehor/wav2vec2-xls-r-base-uk-with-cv-lm | 0.13 | 0.0418 | 87% |
 | nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0517 | 0.0115 | **94.83%** |
 | NeonBohdan/stt_uk_citrinet_512_gamma_0_25 | 0.0828 | 0.0187 | **91.72%** |
-| theodotus/stt_uk_contextnet_512 | 0.0875 | 0.0199 | **91.25%** |
+| theodotus/stt_uk_contextnet_512 | 0.0875 | 0.0199 | 91.25% |
+| theodotus/stt_uk_squeezeformer_ctc_xs | 0.2184 | 0.0511 | 78.16% |
 | arampacha/wav2vec2-xls-r-1b-uk | 0.1214 | 0.0244 | 87.86% |
 | robinhad/wav2vec2-xls-r-300m-uk | 0.3111 | 0.0655 | 68.89% |
 | robinhad/data2vec-large-uk | 0.3549 | 0.0859 | 64.51% |
