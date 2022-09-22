@@ -117,6 +117,14 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 </p>
 </details>
 
+<details><summary>whisper</summary>
+<p>
+
+- whisper: https://github.com/openai/whisper
+
+</p>
+</details>
+
 ## 📊 Benchmarks
 
 This benchmark uses Common Voice 7 test split.
