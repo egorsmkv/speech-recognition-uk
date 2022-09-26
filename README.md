@@ -127,6 +127,15 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 </p>
 </details>
 
+
+<details><summary>Flashlight</summary>
+<p>
+
+- Flashlight Conformer: https://github.com/egorsmkv/flashlight-ukrainian
+
+</p>
+</details>
+
 ## 📊 Benchmarks
 
 This benchmark uses Common Voice 7 test split.
@@ -152,6 +161,7 @@ This benchmark uses Common Voice 7 test split.
 | VOSK v3 | 0.2537 | 0.0916 | 74.63% |
 | Silero v3 | 0.2318 | - | 76.82% |
 | whisper (base) | 0.5578 | 0.1689 | 44.22% |
+| Flashlight Conformer | 0.0907 | 0.0198 | 90.93% |
 
 ## 📖 Development
 
