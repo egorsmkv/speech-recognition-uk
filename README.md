@@ -53,8 +53,7 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   
 - NVIDIA Streaming Citrinet 1024 (uk): https://huggingface.co/nvidia/stt_uk_citrinet_1024_gamma_0_25
 - NVIDIA Streaming Citrinet 512 (uk): https://huggingface.co/NeonBohdan/stt_uk_citrinet_512_gamma_0_25
-    - Demo 1: https://huggingface.co/spaces/theodotus/streaming-asr-uk
-    - Demo 2: https://huggingface.co/spaces/theodotus/buffered-asr-uk
+
 </p>
 </details>
 
@@ -68,7 +67,10 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 
 <details><summary>Squeezeformer</summary>
 <p>
-  
+
+- Squeezeformer-CTC SM: https://huggingface.co/theodotus/stt_uk_squeezeformer_ctc_sm
+    - Demo 1: https://huggingface.co/spaces/theodotus/streaming-asr-uk
+    - Demo 2: https://huggingface.co/spaces/theodotus/buffered-asr-uk
 - Squeezeformer-CTC XS: https://huggingface.co/theodotus/stt_uk_squeezeformer_ctc_xs
   
   </p>
