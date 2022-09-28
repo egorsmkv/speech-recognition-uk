@@ -140,6 +140,11 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 
 This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv10-uk-testset-clean).
 
+| Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
+|-------|-----|-----|------------|------------------|-----|------------|
+| Yehor/wav2vec2-xls-r-1b-uk-with-lm | 0.1807 | 0.0317 | 81.93% | 0 | 0 | 0% |
+
+
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
 | Yehor/wav2vec2-xls-r-1b-uk-with-lm | 0.1245 | 0.0244 | 87.55% |
