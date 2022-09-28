@@ -140,6 +140,8 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 
 This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv10-uk-testset-clean).
 
+### `wav2vec2`
+
 | Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
 | Yehor/wav2vec2-xls-r-1b-uk-with-lm | 0.1807 | 0.0317 | 81.93% | 0.1193 | 0.0218 | 88.07% |
@@ -151,6 +153,13 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | robinhad/wav2vec2-xls-r-300m-uk | 0.2736 | 0.0537 | 72.64% | - | - | - |
 | arampacha/wav2vec2-xls-r-1b-uk | 0.1652 | 0.0293 | 83.48% | 0.0945 | 0.0175 | 90.55% |
 
+### `CitriNet`
+
+[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k) is used as the LM
+
+| Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
+|-------|-----|-----|------------|------------------|-----|------------|
+| nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0432 | 0.0094 | 95.68% |  |  | % |
 
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
