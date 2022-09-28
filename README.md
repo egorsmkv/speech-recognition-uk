@@ -148,6 +148,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | Yehor/wav2vec2-xls-r-300m-uk-with-news-lm | 0.2027 | 0.0365 | 79.73% | 0.0929 | 0.019 | 90.71% |
 | Yehor/wav2vec2-xls-r-300m-uk-with-wiki-lm | 0.2027 | 0.0365 | 79.73% | 0.1045 | 0.0208 | 89.55% |
 | Yehor/wav2vec2-xls-r-base-uk-with-small-lm | 0.4441 | 0.0975 | 55.59% | 0.2878 | 0.0711 | 71.22% |
+| robinhad/wav2vec2-xls-r-300m-uk | 0.2736 | 0.0537 | 72.64% | - | - | - |
 
 
 | Model | WER | CER | Quality, % |
@@ -157,7 +158,6 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | theodotus/stt_uk_contextnet_512 | 0.0875 | 0.0199 | 91.25% |
 | theodotus/stt_uk_squeezeformer_ctc_xs | 0.2184 | 0.0511 | 78.16% |
 | arampacha/wav2vec2-xls-r-1b-uk | 0.1214 | 0.0244 | 87.86% |
-| robinhad/wav2vec2-xls-r-300m-uk | 0.3111 | 0.0655 | 68.89% |
 | robinhad/data2vec-large-uk | 0.3549 | 0.0859 | 64.51% |
 | speechbrain/m-ctc-t-large | 0.603 | 0.1391 | 39.7% |
 | VOSK v3 | 0.2537 | 0.0916 | 74.63% |
