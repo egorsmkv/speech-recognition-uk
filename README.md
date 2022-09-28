@@ -162,9 +162,17 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0432 | 0.0094 | 95.68% | 0.0352 | 0.0079 | 96.48% |
 | NeonBohdan/stt_uk_citrinet_512_gamma_0_25 | 0.071 | 0.0153 | 92.9% | 0.0542 | 0.012 | 94.58% |
 
+### `ContextNet`
+
+[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k) is used as the LM
+
+| Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
+|-------|-----|-----|------------|------------------|-----|------------|
+| theodotus/stt_uk_contextnet_512 | 0.0669 | 0.0145 | 93.31% | - | - | - |
+
+
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
-| theodotus/stt_uk_contextnet_512 | 0.0875 | 0.0199 | 91.25% |
 | theodotus/stt_uk_squeezeformer_ctc_xs | 0.2184 | 0.0511 | 78.16% |
 | robinhad/data2vec-large-uk | 0.3549 | 0.0859 | 64.51% |
 | speechbrain/m-ctc-t-large | 0.603 | 0.1391 | 39.7% |
