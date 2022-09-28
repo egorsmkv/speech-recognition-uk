@@ -143,11 +143,11 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
 | Yehor/wav2vec2-xls-r-1b-uk-with-lm | 0.1807 | 0.0317 | 81.93% | 0.1193 | 0.0218 | 88.07% |
+| Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm | 0.1807 | 0.0317 | 81.93% | 0.0997 | 0.0191 | 90.03% |
 
 
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
-| Yehor/wav2vec2-xls-r-1b-uk-with-lm | 0.1245 | 0.0244 | 87.55% |
 | Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm | 0.1142 | 0.0229 | **88.58%** |
 | Yehor/wav2vec2-xls-r-300m-uk-with-lm | 0.1751 | 0.0394 | 82.49% |
 | Yehor/wav2vec2-xls-r-300m-uk-with-news-lm | 0.118 | 0.0251 | 88.2% |
