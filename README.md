@@ -170,10 +170,17 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 |-------|-----|-----|------------|------------------|-----|------------|
 | theodotus/stt_uk_contextnet_512 | 0.0669 | 0.0145 | 93.31% | - | - | - |
 
+### `Squeezeformer`
+
+[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k) is used as the LM
+
+| Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
+|-------|-----|-----|------------|------------------|-----|------------|
+| theodotus/stt_uk_squeezeformer_ctc_xs |  |  | % |  |  | % |
+| theodotus/stt_uk_squeezeformer_ctc_sm |  |  | % |  |  | % |
 
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
-| theodotus/stt_uk_squeezeformer_ctc_xs | 0.2184 | 0.0511 | 78.16% |
 | robinhad/data2vec-large-uk | 0.3549 | 0.0859 | 64.51% |
 | speechbrain/m-ctc-t-large | 0.603 | 0.1391 | 39.7% |
 | VOSK v3 | 0.2537 | 0.0916 | 74.63% |
