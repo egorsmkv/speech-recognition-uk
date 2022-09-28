@@ -159,12 +159,11 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 | Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
-| nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0432 | 0.0094 | 95.68% |  |  | % |
+| nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0432 | 0.0094 | 95.68% | 0.0352 | 0.0079 | 96.48% |
+| NeonBohdan/stt_uk_citrinet_512_gamma_0_25 | 0.071 | 0.0153 | 92.9% | 0.0542 | 0.012 | 94.58% |
 
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
-| nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0517 | 0.0115 | **94.83%** |
-| NeonBohdan/stt_uk_citrinet_512_gamma_0_25 | 0.0828 | 0.0187 | **91.72%** |
 | theodotus/stt_uk_contextnet_512 | 0.0875 | 0.0199 | 91.25% |
 | theodotus/stt_uk_squeezeformer_ctc_xs | 0.2184 | 0.0511 | 78.16% |
 | robinhad/data2vec-large-uk | 0.3549 | 0.0859 | 64.51% |
