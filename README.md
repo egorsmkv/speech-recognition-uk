@@ -147,11 +147,11 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | Yehor/wav2vec2-xls-r-300m-uk-with-lm | 0.2906 | 0.0548 | 70.94% | 0.172 | 0.0355 | 82.8% |
 | Yehor/wav2vec2-xls-r-300m-uk-with-news-lm | 0.2027 | 0.0365 | 79.73% | 0.0929 | 0.019 | 90.71% |
 | Yehor/wav2vec2-xls-r-300m-uk-with-wiki-lm | 0.2027 | 0.0365 | 79.73% | 0.1045 | 0.0208 | 89.55% |
+| Yehor/wav2vec2-xls-r-base-uk-with-small-lm | 0.4441 | 0.0975 | 55.59% | 0.2878 | 0.0711 | 71.22% |
 
 
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
-| Yehor/wav2vec2-xls-r-base-uk-with-small-lm | 0.303 | 0.0818 | 69.7% |
 | nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0517 | 0.0115 | **94.83%** |
 | NeonBohdan/stt_uk_citrinet_512_gamma_0_25 | 0.0828 | 0.0187 | **91.72%** |
 | theodotus/stt_uk_contextnet_512 | 0.0875 | 0.0199 | 91.25% |
