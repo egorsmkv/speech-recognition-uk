@@ -176,7 +176,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 | Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
-| theodotus/stt_uk_squeezeformer_ctc_xs |  |  | % |  |  | % |
+| theodotus/stt_uk_squeezeformer_ctc_xs | 0.1132 | 0.0253 | 88.68% | 0.0835 | 0.0196 | 91.65% |
 | theodotus/stt_uk_squeezeformer_ctc_sm |  |  | % |  |  | % |
 
 | Model | WER | CER | Quality, % |
