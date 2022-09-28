@@ -138,7 +138,7 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 
 ## 📊 Benchmarks
 
-This benchmark uses Common Voice 7 test split.
+This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv10-uk-testset-clean).
 
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
