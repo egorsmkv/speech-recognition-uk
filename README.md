@@ -244,6 +244,10 @@ not yet tested
 
 - Ukrainian LMs: https://huggingface.co/Yehor/kenlm-ukrainian
 
+### Text Enhancement
+
+- Punctuation and capitalization model: https://huggingface.co/dchaplinsky/punctuation_uk_bert
+
 # 📢 Text-to-Speech
 
 Test sentence with stresses:
