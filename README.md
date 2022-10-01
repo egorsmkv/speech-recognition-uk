@@ -198,6 +198,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | tiny | 0.6308 | 0.1859 | 36.92% |
 | base | 0.521 | 0.1408 | 47.9% |
 | small | 0.3057 | 0.0764 | 69.43% |
+| medium | 0.1873 | 0.044 | 81.27% |
 
 <!--
 
