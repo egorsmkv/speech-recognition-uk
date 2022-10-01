@@ -195,6 +195,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
+| tiny | 0.6308 | 0.1859 | 36.92% |
 | base | 0.521 | 0.1408 | 47.9% |
 
 <!--
