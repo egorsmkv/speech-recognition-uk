@@ -191,6 +191,12 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 |-------|-----|-----|------------|
 | snakers4/silero-models | 0.2356 | 0.0646 | 76.44% |
 
+### `whisper`
+
+| Model | WER | CER | Quality, % |
+|-------|-----|-----|------------|
+| base | 0.521 | 0.1408 | 47.9% |
+
 <!--
 
 not yet tested
@@ -200,7 +206,6 @@ not yet tested
 | robinhad/data2vec-large-uk | 0.3549 | 0.0859 | 64.51% |
 | speechbrain/m-ctc-t-large | 0.603 | 0.1391 | 39.7% |
 | VOSK v3 | 0.2537 | 0.0916 | 74.63% |
-| whisper (base) | 0.5578 | 0.1689 | 44.22% |
 
 -->
 
