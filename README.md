@@ -1,6 +1,6 @@
 # Speech Recognition for Ukrainian 🇺🇦
 
-The goal of this repository is to collect information and datasets for automatic speech recognition (speech-to-text) in Ukrainian.
+The goal of this repository is to collect information and datasets for Ukrainian automatic speech recognition aka speech-to-text.
 
 Also, this repository contains information about speech synthesis (text-to-speech) for Ukrainian.
 
