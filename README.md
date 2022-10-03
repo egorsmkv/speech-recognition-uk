@@ -195,7 +195,13 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
-| snakers4/silero-models | 0.2356 | 0.0646 | 76.44% |
+| speechbrain/m-ctc-t-large | 0.2356 | 0.0646 | 76.44% |
+
+### `m-ctc-t`
+
+| Model | WER | CER | Quality, % |
+|-------|-----|-----|------------|
+| snakers4/silero-models | 0.57 | 0.1094 | 43% |
 
 ### `whisper`
 
