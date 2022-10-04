@@ -191,6 +191,12 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 |-------|-----|-----|------------|
 | robinhad/data2vec-large-uk | 0.3117 | 0.0731 | 68.83% |
 
+### `VOSK`
+
+| Model | WER | CER | Quality, % |
+|-------|-----|-----|------------|
+| v3 | 0.5325 | 0.3878 | 46.75% |
+
 ### `Silero`
 
 | Model | WER | CER | Quality, % |
@@ -212,16 +218,6 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | small | 0.3057 | 0.0764 | 69.43% |
 | medium | 0.1873 | 0.044 | 81.27% |
 | large | 0.1642 | 0.0393 | 83.58% |
-
-<!--
-
-not yet tested
-
-| Model | WER | CER | Quality, % |
-|-------|-----|-----|------------|
-| VOSK v3 | 0.2537 | 0.0916 | 74.63% |
-
--->
 
 ## 📖 Development
 
