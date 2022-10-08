@@ -68,9 +68,10 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 <details><summary>Squeezeformer</summary>
 <p>
 
-- Squeezeformer-CTC SM: https://huggingface.co/theodotus/stt_uk_squeezeformer_ctc_sm
+- Squeezeformer-CTC M: https://huggingface.co/theodotus/stt_uk_squeezeformer_ctc_m
     - Demo 1: https://huggingface.co/spaces/theodotus/streaming-asr-uk
     - Demo 2: https://huggingface.co/spaces/theodotus/buffered-asr-uk
+- Squeezeformer-CTC SM: https://huggingface.co/theodotus/stt_uk_squeezeformer_ctc_sm
 - Squeezeformer-CTC XS: https://huggingface.co/theodotus/stt_uk_squeezeformer_ctc_xs
   
   </p>
