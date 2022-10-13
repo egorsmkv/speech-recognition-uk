@@ -221,6 +221,13 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | medium | 0.1873 | 0.044 | 81.27% |
 | large | 0.1642 | 0.0393 | 83.58% |
 
+### `DeepSpeech`
+
+| Model | WER | CER | Quality, % |
+|-------|-----|-----|------------|
+| v0.5 | 0.7025 | 0.2009 | 29.75% |
+
+
 ## 📖 Development
 
 - How to train own model using Kaldi (in Russian): https://github.com/egorsmkv/speech-recognition-uk/blob/master/vosk-model-creation/INSTRUCTION.md
