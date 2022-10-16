@@ -179,7 +179,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | theodotus/stt_uk_squeezeformer_ctc_xs | 0.1132 | 0.0253 | 88.68% | 0.0835 | 0.0196 | 91.65% |
 | theodotus/stt_uk_squeezeformer_ctc_sm | 0.082 | 0.0175 | 91.8% | 0.0605 | 0.0142 | 93.95% |
 | theodotus/stt_uk_squeezeformer_ctc_m | 0.0793 | 0.0175 | 92.07% | 0.0572 | 0.0137 | 94.28% |
-| theodotus/stt_uk_squeezeformer_ctc_ml | 0.066 | 0.0141 | 93.4% | 0.0513 | 0.0115 | 94.87% |
+| theodotus/stt_uk_squeezeformer_ctc_ml | 0.063 | 0.0136 | 93.7% | 0.0473 | 0.0109 | 95.27% |
 
 ### `Flashlight`
 
