@@ -69,7 +69,6 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 <p>
 
 - Squeezeformer-CTC ML: https://huggingface.co/theodotus/stt_uk_squeezeformer_ctc_ml
-- Squeezeformer-CTC M: https://huggingface.co/theodotus/stt_uk_squeezeformer_ctc_m
     - Demo 1: https://huggingface.co/spaces/theodotus/streaming-asr-uk
     - Demo 2: https://huggingface.co/spaces/theodotus/buffered-asr-uk
 - Squeezeformer-CTC SM: https://huggingface.co/theodotus/stt_uk_squeezeformer_ctc_sm
@@ -178,7 +177,6 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 |-------|-----|-----|------------|------------------|-----|------------|
 | theodotus/stt_uk_squeezeformer_ctc_xs | 0.1078 | 0.0229 | 89.22% | 0.0777 | 0.0174 | 92.23% |
 | theodotus/stt_uk_squeezeformer_ctc_sm | 0.082 | 0.0175 | 91.8% | 0.0605 | 0.0142 | 93.95% |
-| theodotus/stt_uk_squeezeformer_ctc_m | 0.0793 | 0.0175 | 92.07% | 0.0572 | 0.0137 | 94.28% |
 | theodotus/stt_uk_squeezeformer_ctc_ml | 0.0591 | 0.0126 | 94.09% | 0.0451 | 0.0105 | 95.49% |
 
 ### `Flashlight`
