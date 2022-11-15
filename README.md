@@ -7,6 +7,8 @@ Also, this repository contains information about Ukrainian speech synthesis aka 
 - **Join our Speech Recognition Group in Telegram**: https://t.me/speech_recognition_uk
 - **Join our Speech Synthesis Group in Telegram**: https://t.me/speech_synthesis_uk
 
+Or you can [start a discussion](https://github.com/egorsmkv/speech-recognition-uk/discussions/new).
+
 ## Donate
 
 You can support our work by donation:
