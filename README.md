@@ -126,6 +126,7 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 <p>
 
 - whisper: https://github.com/openai/whisper
+- whisper (fine-tuned for Ukrainian): https://github.com/egorsmkv/whisper-ukrainian
 
 </p>
 </details>
@@ -222,6 +223,12 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | small | 0.3057 | 0.0764 | 69.43% |
 | medium | 0.1873 | 0.044 | 81.27% |
 | large | 0.1642 | 0.0393 | 83.58% |
+
+Fine-tuned version for Ukrainian:
+
+| Model | WER | CER | Quality, % |
+|-------|-----|-----|------------|
+| small | 0.27 | - | 73% |
 
 ### `DeepSpeech`
 
