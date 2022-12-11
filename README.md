@@ -275,6 +275,10 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 - Ukrainian LMs: https://huggingface.co/Yehor/kenlm-ukrainian
 
+### Inverse Text Normalization:
+
+- WFST for Ukrainian Inverse Text Normalization: https://github.com/lociko/ukraine_itn_wfst
+
 ### Text Enhancement
 
 - Punctuation and capitalization model: https://huggingface.co/dchaplinsky/punctuation_uk_bert
