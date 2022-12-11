@@ -295,6 +295,18 @@ Without stresses:
 
 ## 💡 Implementations
 
+
+<details><summary>RAD-TTS</summary>
+<p>
+
+- [RAD-TTS](https://github.com/egorsmkv/ukrainian-radtts), the voice "Lada"
+
+https://user-images.githubusercontent.com/7875085/206881140-bf8c09e7-5553-43d9-8807-065c36b2904b.mp4
+  
+</p>
+</details>
+
+
 <details><summary>Silero TTS</summary>
 <p>
 
