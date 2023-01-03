@@ -126,7 +126,8 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 <p>
 
 - whisper: https://github.com/openai/whisper
-- whisper (fine-tuned for Ukrainian): https://github.com/egorsmkv/whisper-ukrainian
+- whisper (small, fine-tuned for Ukrainian): https://github.com/egorsmkv/whisper-ukrainian
+- whisper (large, fine-tuned for Ukrainian): https://huggingface.co/arampacha/whisper-large-uk-2
 
 </p>
 </details>
@@ -230,6 +231,7 @@ Fine-tuned version for Ukrainian:
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
 | small | 0.27 | - | 73% |
+| large | - | - | - |
 
 If you want to fine-tune a Whisper model on own data, then use this repository: https://github.com/egorsmkv/whisper-ukrainian
 
