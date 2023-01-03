@@ -231,7 +231,7 @@ Fine-tuned version for Ukrainian:
 | Model | WER | CER | Quality, % |
 |-------|-----|-----|------------|
 | small | 0.27 | - | 73% |
-| large | - | - | - |
+| large | 0.2482 | 0.055 | 75.18% |
 
 If you want to fine-tune a Whisper model on own data, then use this repository: https://github.com/egorsmkv/whisper-ukrainian
 
