@@ -54,7 +54,7 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 <p>
   
 - NVIDIA Streaming Citrinet 1024 (uk): https://huggingface.co/nvidia/stt_uk_citrinet_1024_gamma_0_25
-- NVIDIA Streaming Citrinet 512 (uk): https://huggingface.co/NeonBohdan/stt_uk_citrinet_512_gamma_0_25
+- NVIDIA Streaming Citrinet 512 (uk): https://huggingface.co/neongeckocom/stt_uk_citrinet_512_gamma_0_25
 
 </p>
 </details>
@@ -165,7 +165,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
 | nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0432 | 0.0094 | 95.68% | 0.0352 | 0.0079 | 96.48% |
-| NeonBohdan/stt_uk_citrinet_512_gamma_0_25 | 0.0746 | 0.016 | 92.54% | 0.0563 | 0.0128 | 94.37% |
+| neongeckocom/stt_uk_citrinet_512_gamma_0_25 | 0.0746 | 0.016 | 92.54% | 0.0563 | 0.0128 | 94.37% |
 
 ### `ContextNet`
 
