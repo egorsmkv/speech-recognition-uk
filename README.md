@@ -147,7 +147,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 ### `wav2vec2`
 
-| Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
+| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
 | Yehor/wav2vec2-xls-r-1b-uk-with-lm | 0.1807 | 0.0317 | 81.93% | 0.1193 | 0.0218 | 88.07% |
 | Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm | 0.1807 | 0.0317 | 81.93% | 0.0997 | 0.0191 | 90.03% |
@@ -162,14 +162,14 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 [lm-4gram-500k](https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k) is used as the LM
 
-| Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
+| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
 | nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0432 | 0.0094 | 95.68% | 0.0352 | 0.0079 | 96.48% |
 | neongeckocom/stt_uk_citrinet_512_gamma_0_25 | 0.0746 | 0.016 | 92.54% | 0.0563 | 0.0128 | 94.37% |
 
 ### `ContextNet`
 
-| Model | WER | CER | Quality, % |
+| Model | WER | CER | Accuracy, % |
 |-------|-----|-----|------------|
 | theodotus/stt_uk_contextnet_512 | 0.0669 | 0.0145 | 93.31% |
 
@@ -177,7 +177,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 [lm-4gram-500k](https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k) is used as the LM
 
-| Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
+| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
 | theodotus/stt_uk_squeezeformer_ctc_xs | 0.1078 | 0.0229 | 89.22% | 0.0777 | 0.0174 | 92.23% |
 | theodotus/stt_uk_squeezeformer_ctc_sm | 0.082 | 0.0175 | 91.8% | 0.0605 | 0.0142 | 93.95% |
@@ -187,37 +187,37 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 [lm-4gram-500k](https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k) is used as the LM
 
-| Model | WER | CER | Quality, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Quality<sup>+LM</sup>, % |
+| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
 | Flashlight Conformer | 0.1915 | 0.0244 | 80.85% | 0.0907 | 0.0198 | 90.93% |
 
 ### `data2vec`
 
-| Model | WER | CER | Quality, % |
+| Model | WER | CER | Accuracy, % |
 |-------|-----|-----|------------|
 | robinhad/data2vec-large-uk | 0.3117 | 0.0731 | 68.83% |
 
 ### `VOSK`
 
-| Model | WER | CER | Quality, % |
+| Model | WER | CER | Accuracy, % |
 |-------|-----|-----|------------|
 | v3 | 0.5325 | 0.3878 | 46.75% |
 
 ### `Silero`
 
-| Model | WER | CER | Quality, % |
+| Model | WER | CER | Accuracy, % |
 |-------|-----|-----|------------|
 | snakers4/silero-models | 0.2356 | 0.0646 | 76.44% |
 
 ### `m-ctc-t`
 
-| Model | WER | CER | Quality, % |
+| Model | WER | CER | Accuracy, % |
 |-------|-----|-----|------------|
 | speechbrain/m-ctc-t-large | 0.57 | 0.1094 | 43% |
 
 ### `whisper`
 
-| Model | WER | CER | Quality, % |
+| Model | WER | CER | Accuracy, % |
 |-------|-----|-----|------------|
 | tiny | 0.6308 | 0.1859 | 36.92% |
 | base | 0.521 | 0.1408 | 47.9% |
@@ -228,7 +228,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 Fine-tuned version for Ukrainian:
 
-| Model | WER | CER | Quality, % |
+| Model | WER | CER | Accuracy, % |
 |-------|-----|-----|------------|
 | small | 0.2704 | 0.0565 | 72.96% |
 | large | 0.2482 | 0.055 | 75.18% |
@@ -237,7 +237,7 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 ### `DeepSpeech`
 
-| Model | WER | CER | Quality, % |
+| Model | WER | CER | Accuracy, % |
 |-------|-----|-----|------------|
 | v0.5 | 0.7025 | 0.2009 | 29.75% |
 
