@@ -279,6 +279,7 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 ### Other
 
+- ASR Corpus created using a Telegram bot for Ukrainian: https://github.com/egorsmkv/asr-tg-bot-corpus
 - Speech Dataset with Ukrainian: https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/
 
 ## ⭐ Related works
