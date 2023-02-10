@@ -364,5 +364,6 @@ https://user-images.githubusercontent.com/96498856/170762023-d4b3f6d7-d756-4cb7-
 
 ### Accentors
 
+- https://github.com/NeonBohdan/ukrainian-accentor-transformer
 - https://github.com/lang-uk/ukrainian-word-stress
 - https://github.com/egorsmkv/ukrainian-accentor
