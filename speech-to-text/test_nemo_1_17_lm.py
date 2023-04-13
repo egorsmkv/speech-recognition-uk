@@ -1,6 +1,8 @@
 """
-pip install -U evaluate
+pip install -U evaluate torch nemo-toolkit[all]
 """
+
+import csv
 
 import torch
 import nemo.collections.asr as nemo_asr
@@ -9,19 +11,14 @@ from evaluate import load
 # Config
 model_name = 'theodotus/stt_uk_squeezeformer_ctc_ml'
 batch_size = 20
+device = 'cuda' # or cpu
 
 # Load the test dataset
-samples = []
 with open('./cv10_clean.csv') as f:
-    rows = f.readlines()
-    for idx, sample in enumerate(rows):
-        if idx == 0:
-            continue
-        data = sample.strip().split(',')
-        samples.append({'path': data[0], 'text': data[1]})
+    samples = list(csv.DictReader(f))
 
 # Load the model
-asr_model = nemo_asr.models.EncDecCTCModel.from_pretrained(model_name, map_location=torch.device('cuda'))
+asr_model = nemo_asr.models.EncDecCTCModel.from_pretrained(model_name, map_location=torch.device(device))
 
 # Disable decoding strategy for the model
 asr_model.change_decoding_strategy(None)
@@ -40,6 +37,7 @@ decoding_cfg.beam.pyctcdecode_cfg.token_min_logp = -5.0
 
 # decoding_cfg.beam.pyctcdecode_cfg.hotwords = []
 # decoding_cfg.beam.pyctcdecode_cfg.hotword_weight = 10.0
+
 
 # Use the pyctcdecode strategy
 asr_model.change_decoding_strategy(decoding_cfg)
@@ -60,16 +58,13 @@ references_all = []
 
 # Inference in the batched mode
 for batch in make_batches(samples, batch_size):
-    batch_paths = [it['path'] for it in batch]
-    batch_target = [it['text'] for it in batch]
+    paths = [it['path'] for it in batch]
+    references = [it['text'] for it in batch]
 
     # Transcribe the audio files
-    predictions = asr_model.transcribe(paths2audio_files=batch_paths, batch_size=batch_size)
+    predictions = asr_model.transcribe(paths2audio_files=paths, batch_size=batch_size)
 
-    # Transform the utterances
-    predictions = [it.upper() for it in predictions]
-    references = [it.upper() for it in batch_target]
-
+    # Log outputs
     print('---')
     print('Predictions:')
     print(predictions)
