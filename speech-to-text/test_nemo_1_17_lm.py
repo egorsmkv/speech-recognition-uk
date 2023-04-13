@@ -52,10 +52,6 @@ def make_batches(iterable, n=1):
     for ndx in range(0, l, n):
         yield iterable[ndx:min(ndx + n, l)]
 
-# Load evaluators
-wer = evaluate.load('wer')
-cer = evaluate.load('cer')
-
 # Temporary variables
 predictions_all = []
 references_all = []
@@ -80,6 +76,10 @@ for batch in make_batches(samples, batch_size):
     predictions_all.extend(predictions)
     references_all.extend(references)
 
+# Load evaluators
+wer = evaluate.load('wer')
+cer = evaluate.load('cer')
+    
 # Evaluate
 wer_value = round(wer.compute(predictions=predictions_all, references=references_all), 4)
 cer_value = round(cer.compute(predictions=predictions_all, references=references_all), 4)
