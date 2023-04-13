@@ -1,73 +1,81 @@
+"""
+pip install -U evaluate torch soundfile transformers
+"""
+
+import csv
+
 import torch
-import torchaudio
-import os
-import time
-import re
-
+import soundfile as sf
+import evaluate
 from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
-from datasets import load_dataset, load_metric, load_from_disk
 
-csv_test_file = '/home/yehor/Desktop/CV7-test/cv10_clean.csv'
-cache_folder = f"cv10_clean.data"
-model_name = '/home/yehor/Desktop/CV7-test/wav2vec2-xls-r-300m-uk-with-news-lm'
+# Config
+model_name = 'Yehor/wav2vec2-xls-r-base-uk-with-small-lm'
+batch_size = 20
+device = 'cuda' # or cpu
+sampling_rate = 16_000
+testset_file = './cv10_clean.csv'
 
-device = "cuda"
+# Load the test dataset
+with open(testset_file) as f:
+    samples = list(csv.DictReader(f))
 
-s = time.time()
-print('Loading Model')
-model = Wav2Vec2ForCTC.from_pretrained(model_name).to(device)
+# Load the model
+asr_model = Wav2Vec2ForCTC.from_pretrained(model_name).to(device)
 processor = Wav2Vec2Processor.from_pretrained(model_name)
 
-print('Loaded Model')
-print(time.time() - s, 'secs')
-print(f'Evaluation: {model_name}')
+# A util function to make batches
+def make_batches(iterable, n=1):
+    l = len(iterable)
+    for ndx in range(0, l, n):
+        yield iterable[ndx:min(ndx + n, l)]
 
+# Temporary variables
+predictions_all = []
+references_all = []
 
-def map_to_array(batch):
-    path = batch["path"]
-    speech, sampling_rate = torchaudio.load(path)
-    if sampling_rate != 16_000:
-        resampler = torchaudio.transforms.Resample(orig_freq=sampling_rate, new_freq=16_000)
-        batch["speech"] = resampler.forward(speech.squeeze(0)).numpy()
-    else:
-        batch["speech"] = speech.squeeze(0).numpy()
-    batch["lengths"] = len(batch["speech"])
+# Inference in the batched mode
+for batch in make_batches(samples, batch_size):
+    paths = [it['path'] for it in batch]
+    references = [it['text'] for it in batch]
 
-    return batch
+    # Extract audio
+    audio_inputs = []
+    for path in paths:
+        audio_input, _ = sf.read(path)
+        audio_inputs.append(audio_input)
 
-if os.path.isdir(cache_folder):
-    ds = load_from_disk(cache_folder)
-else:
-    ds = load_dataset('csv', data_files=csv_test_file)['train']
-    ds = ds.map(map_to_array, keep_in_memory=False, num_proc=5)
-    ds.save_to_disk(cache_folder)
-
-
-def map_to_pred(batch):
-    features = processor(batch["speech"], sampling_rate=16000, padding=True, return_tensors="pt")
+    # Transcribe the audio
+    features = processor(audio_inputs, sampling_rate=sampling_rate, padding=True, return_tensors='pt')
     input_values = features.input_values.to(device)
     attention_mask = features.attention_mask.to(device)
+
     with torch.no_grad():
-        logits = model(input_values, attention_mask=attention_mask).logits
+        logits = asr_model(input_values, attention_mask=attention_mask).logits
+
     predicted_ids = torch.argmax(logits, dim=-1)
-    predicted = processor.batch_decode(predicted_ids)
-    
-    batch["predicted"] = predicted
-    batch["target"] = [ it.strip() for it in batch["text"] ]
+    predictions = processor.batch_decode(predicted_ids)
 
-    print(batch["predicted"])
-    print(batch["target"])
+    # Log outputs
+    print('---')
+    print('Predictions:')
+    print(predictions)
+    print('References:')
+    print(references)
+    print('---')
 
-    return batch
+    # Add predictions and references
+    predictions_all.extend(predictions)
+    references_all.extend(references)
 
+# Load evaluators
+wer = evaluate.load('wer')
+cer = evaluate.load('cer')
 
-result = ds.map(map_to_pred, batched=True, batch_size=5, remove_columns=list(ds.features.keys()))
+# Evaluate
+wer_value = round(wer.compute(predictions=predictions_all, references=references_all), 4)
+cer_value = round(cer.compute(predictions=predictions_all, references=references_all), 4)
 
-wer = load_metric("wer.py")
-cer = load_metric("cer.py")
-
-predictions = [x.upper() for x in result["predicted"]]
-references = [x.upper() for x in result["target"]]
-
-print(f"WER: {round(wer.compute(predictions=predictions, references=references), 4)}")
-print(f"CER: {round(cer.compute(predictions=predictions, references=references), 4)}")
+# Print results
+print('Final:')
+print(f'WER: {wer_value} | CER: {cer_value}')
