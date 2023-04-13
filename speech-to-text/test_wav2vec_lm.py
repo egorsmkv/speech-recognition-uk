@@ -1,5 +1,5 @@
 """
-pip install -U evaluate torch nemo-toolkit[all]
+pip install -U evaluate torch soundfile transformers
 """
 
 import csv
