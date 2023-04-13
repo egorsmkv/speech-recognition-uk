@@ -1,75 +1,74 @@
-import torch
+"""
+pip install -U evaluate torch openai-whisper
+"""
+
+import csv
+
 import whisper
-import re
-import numpy as np
-import os
-import scipy.io.wavfile as wavfile
+import evaluate
 
-from tempfile import NamedTemporaryFile
-from datasets import load_metric, load_from_disk
+# Config
+model_name = 'tiny'
+batch_size = 20
+sampling_rate = 16_000
+device = 'cuda' # or cpu
+testset_file = './cv10_clean.csv'
 
+# Load the test dataset
+with open(testset_file) as f:
+    samples = list(csv.DictReader(f))
 
-cache_file_test = 'cv10_clean.data'
-ds = load_from_disk(cache_file_test)
+# Load the model
+asr_model = whisper.load_model(model_name)
+whisper_options = whisper.DecodingOptions(fp16=False, language='uk', beam_size=1, without_timestamps=True)
 
-model = whisper.load_model("medium")
+# A util function to make batches
+def make_batches(iterable, n=1):
+    l = len(iterable)
+    for ndx in range(0, l, n):
+        yield iterable[ndx:min(ndx + n, l)]
 
-def only_uk_sentence(v):
-    char_set_lower = 'а, б, в, г, ґ, д, е, є, ж, з, и, і, ї, й, к, л, м, н, о, п, р, с, т, у, ф, х, ц, ч, ш, щ, ь, ю, я'.replace(',','').replace(' ', '')
-    char_set_upper = char_set_lower.upper()
-    char_set = char_set_lower + char_set_upper
-    char_set = char_set + '—,!?' + "'" + ' '
+# Temporary variables
+predictions_all = []
+references_all = []
 
-    return all((True if x in char_set else False for x in v))
+# Inference in the batched mode
+for batch in make_batches(samples, batch_size):
+    paths = [it['path'] for it in batch]
+    references = [it['text'] for it in batch]
 
+    # Transcribe the audio file
+    predictions = []
+    for path in paths:
+        audio = whisper.load_audio(path)
+        audio = whisper.pad_or_trim(audio)
+        mel = whisper.log_mel_spectrogram(audio).to(device)
+        result = whisper.decode(asr_model, mel, whisper_options)
 
-def map_to_pred(batch):
-    tmp_files = []
+        denormalized = result.text.replace('’', "'").strip().lower().replace(',', '').replace('.', '').replace('?', '').replace('!', '')
 
-    for speech in batch["speech"]:
-        with NamedTemporaryFile(suffix='.wav', delete=False) as tmp:
-            wavfile.write(tmp.name, 16000, np.array(speech))
-            tmp_files.append(tmp.name)
+        predictions.append(denormalized)
 
-    results = []
-    for idx, t in enumerate(tmp_files):
-        result = model.transcribe(t, language='uk')
+    # Log outputs
+    print('---')
+    print('Predictions:')
+    print(predictions)
+    print('References:')
+    print(references)
+    print('---')
 
-        results.append(result["text"])
+    # Add predictions and references
+    predictions_all.extend(predictions)
+    references_all.extend(references)
 
-    batch["predicted"] = [it.replace('’', "'").strip().lower().replace(',','').replace('.','').replace('?','').replace('!','') for it in results]
-    batch["target"] = [ it.strip() for it in batch["text"] ]
+# Load evaluators
+wer = evaluate.load('wer')
+cer = evaluate.load('cer')
+    
+# Evaluate
+wer_value = round(wer.compute(predictions=predictions_all, references=references_all), 4)
+cer_value = round(cer.compute(predictions=predictions_all, references=references_all), 4)
 
-    checked_preds = []
-    checked_gt = []
-
-    for idx, pred in enumerate(batch["predicted"]):
-        has_num = bool(re.search(r'\d', pred))
-        only_uk = only_uk_sentence(pred)
-
-        if not has_num and only_uk:
-            checked_preds.append(pred)
-            checked_gt.append(batch["target"][idx])
-
-    batch["predicted"] = checked_preds
-    batch["target"] = checked_gt
-
-    print(batch["predicted"])
-    print(batch["target"])
-
-    for tf in tmp_files:
-        os.unlink(tf)
-
-    return batch
-
-
-result = ds.map(map_to_pred, batched=True, batch_size=10, remove_columns=list(ds.features.keys()))
-
-wer = load_metric("wer.py")
-cer = load_metric("cer.py")
-
-predictions = [x.upper() for x in result["predicted"]]
-references = [x.upper() for x in result["target"]]
-
-print(f"WER: {round(wer.compute(predictions=predictions, references=references), 4)}")
-print(f"CER: {round(cer.compute(predictions=predictions, references=references), 4)}")
+# Print results
+print('Final:')
+print(f'WER: {wer_value} | CER: {cer_value}')
