@@ -317,6 +317,7 @@ Without stresses:
 <p>
 
 - [RAD-TTS](https://github.com/egorsmkv/ukrainian-radtts), the voice "Lada"
+- [RAD-TTS with three voices](https://github.com/egorsmkv/radtts-uk), voices of Lada, Tetiana, and Mykyta
 
 https://user-images.githubusercontent.com/7875085/206881140-bf8c09e7-5553-43d9-8807-065c36b2904b.mp4
   
