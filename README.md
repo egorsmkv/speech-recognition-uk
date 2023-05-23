@@ -67,6 +67,15 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   </p>
 </details>
 
+<details><summary>FastConformer</summary>
+<p>
+
+- FastConformer Hybrid Transducer-CTC Large P&C: https://huggingface.co/theodotus/stt_ua_fastconformer_hybrid_large_pc
+    - Demo: https://huggingface.co/spaces/theodotus/asr-uk-punctuation-capitalization
+  
+  </p>
+</details>
+
 <details><summary>Squeezeformer</summary>
 <p>
 
@@ -172,6 +181,14 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | Model | WER | CER | Accuracy, % |
 |-------|-----|-----|------------|
 | theodotus/stt_uk_contextnet_512 | 0.0669 | 0.0145 | 93.31% |
+
+### `FastConformer P&C`
+
+This model supports text punctuation and capitalization
+
+| Model | WER | CER | Accuracy, % | WER<sup>+P&C</sup> | CER<sup>+P&C</sup> | Accuracy<sup>+P&C</sup>, % |
+|-------|-----|-----|------------|------------------|-----|------------|
+| theodotus/stt_ua_fastconformer_hybrid_large_pc | 0.0400 | 0.0102 | 96.00% | 0.0710 | 0.0167 | 92.90% |
 
 ### `Squeezeformer`
 
