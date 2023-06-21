@@ -15,8 +15,8 @@ device = 'cuda' # or cpu
 sampling_rate = 16_000
 
 # sample
-test_file = 'audio.wav'
-reference = 'test it'
+test_files = ['audio.wav']
+references = ['вання сполучені штати надважливий стратегічний партнер однак є різниця штати мають спеціальний закон який передбачає якщо китай нападе на тайвань американські військові мають його захищати']
 
 # Load the model
 asr_model = Wav2Vec2ForCTC.from_pretrained(model_name).to(device)
@@ -24,11 +24,11 @@ processor = Wav2Vec2ProcessorWithLM.from_pretrained(model_name)
 
 # Temporary variables
 predictions_all = []
-references_all = [reference]
+references_all = []
 
 # Extract audio
 audio_inputs = []
-for path in [test_file]:
+for path in test_files:
     audio_input, _ = sf.read(path)
     audio_inputs.append(audio_input)
 
