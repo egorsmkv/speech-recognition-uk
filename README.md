@@ -374,6 +374,17 @@ https://user-images.githubusercontent.com/96498856/170762023-d4b3f6d7-d756-4cb7-
 </p>
 </details>
 
+<details><summary>Balacoon TTS</summary>
+<p>
+
+ - [Balacoon TTS](https://huggingface.co/spaces/balacoon/tts), voices of Lada, Tetiana and Mykyta. [Blog post](https://balacoon.com/blog/uk_release/) on model release.
+
+https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5e5-4880-8b72-42b02feeee50
+
+</p>
+</details>
+
+
 ## 📚 Datasets
 
 - Voice "LADA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/lada
