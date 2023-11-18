@@ -2,8 +2,6 @@
 pip install -U evaluate torch soundfile transformers
 """
 
-import csv
-
 import torch
 import soundfile as sf
 import evaluate
