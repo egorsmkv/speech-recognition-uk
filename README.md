@@ -404,6 +404,10 @@ https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5
 ## 📚 Datasets
 
 - Voice "LADA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/lada
+- Voice "TETIANA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/tetiana
+- Voice "KATERYNA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/kateryna
+- Voice "MYKYTA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/mykyta
+- Voice "OLEKSA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/oleksa
 
 ## ⭐ Related works
 
