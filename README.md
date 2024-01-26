@@ -4,9 +4,9 @@ The goal of this repository is to collect information and datasets for Ukrainian
 
 Also, this repository contains information about Ukrainian speech synthesis aka text-to-speech.
 
-- **Join our Speech Recognition Group in Telegram**: https://t.me/speech_recognition_uk
-- **Join our Speech Synthesis Group in Telegram**: https://t.me/speech_synthesis_uk
-- Join our Discord server - https://discord.gg/nmUCXz55 - where we're talking about AI
+- **Join our Discord server** - https://discord.gg/nmUCXz55 - where we're talking about AI
+- Join our Speech Recognition Group in Telegram: https://t.me/speech_recognition_uk
+- Join our Speech Synthesis Group in Telegram: https://t.me/speech_synthesis_uk
 
 Or you can [start a discussion](https://github.com/egorsmkv/speech-recognition-uk/discussions/new).
 
@@ -406,8 +406,8 @@ https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5
 - Voice "LADA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/lada
 - Voice "TETIANA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/tetiana
 - Voice "KATERYNA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/kateryna
-- Voice "MYKYTA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/mykyta
-- Voice "OLEKSA", female: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/oleksa
+- Voice "MYKYTA", male: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/mykyta
+- Voice "OLEKSA", male: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/oleksa
 
 ## ⭐ Related works
 
