@@ -20,6 +20,15 @@ You can support our work by donation:
 
 ## 💡 Implementations
 
+<details><summary>wav2vec2-bert</summary>
+<p>
+  
+  - 600M params: https://huggingface.co/Yehor/w2v-bert-2.0-uk
+    
+</p>
+</details>
+
+
 <details><summary>wav2vec2</summary>
 <p>
   
@@ -153,6 +162,12 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 ## 📊 Benchmarks
 
 This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv10-uk-testset-clean).
+
+### `wav2vec2-bert`
+
+| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
+|-------|-----|-----|------------|------------------|-----|------------|
+| Yehor/w2v-bert-2.0-uk | 0.0727 | 0.0151 | 92.73% | 0.0655 | 0.0139 | 93.45% |
 
 ### `wav2vec2`
 
