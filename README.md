@@ -98,15 +98,6 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   </p>
 </details>
 
-<details><summary>Silero</summary>
-<p>
-
-- Silero Models ([link](https://github.com/snakers4/silero-models)), a `ua_v3` xxsmall model, see provided colab notebooks and examples, some performance benchmarks [here](https://github.com/snakers4/silero-models/wiki/Performance-Benchmarks#speed-benchmarks), full optimized / quantized model is ~30MB w/o major quality loss
-- Silero v1: https://github.com/snakers4/silero-models (demo code: https://github.com/egorsmkv/ua-silero-demo, also there is a demo as a Telegram bot: https://t.me/ukr_stt_bot)
-
-  </p>
-</details>
-
 <details><summary>VOSK</summary>
 <p>
   
@@ -236,12 +227,6 @@ This model supports text punctuation and capitalization
 |-------|-----|-----|------------|
 | v3 | 0.5325 | 0.3878 | 46.75% |
 
-### `Silero`
-
-| Model | WER | CER | Accuracy, % |
-|-------|-----|-----|------------|
-| snakers4/silero-models | 0.2356 | 0.0646 | 76.44% |
-
 ### `m-ctc-t`
 
 | Model | WER | CER | Accuracy, % |
@@ -357,16 +342,6 @@ https://user-images.githubusercontent.com/7875085/206881140-bf8c09e7-5553-43d9-8
 </p>
 </details>
 
-
-<details><summary>Silero TTS</summary>
-<p>
-
-- [Silero TTS](https://github.com/snakers4/silero-models#text-to-speech), the voice "Mykyta"
-
-https://user-images.githubusercontent.com/5759207/153086535-cfd923f4-e82a-496b-936c-e927589605af.mp4
-  
-</p>
-</details>
 
 <details><summary>Coqui TTS</summary>
 <p>
