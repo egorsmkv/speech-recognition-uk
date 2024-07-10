@@ -331,6 +331,16 @@ Without stresses:
 ## 💡 Implementations
 
 
+<details><summary>P-Flow TTS</summary>
+<p>
+
+- [P-Flow TTS](https://huggingface.co/spaces/patriotyk/pflowtts_ukr_demo)
+
+https://github.com/egorsmkv/speech-recognition-uk/assets/7875085/18cfc074-f8a1-4842-90b6-9503d0bb7250
+
+</p>
+</details>
+
 <details><summary>RAD-TTS</summary>
 <p>
 
