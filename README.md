@@ -401,3 +401,7 @@ https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5
 - https://github.com/NeonBohdan/ukrainian-accentor-transformer
 - https://github.com/lang-uk/ukrainian-word-stress
 - https://github.com/egorsmkv/ukrainian-accentor
+
+### Misc
+
+- Tool to make high quality text to speech (TTS) corpus from audio + text books: https://github.com/patriotyk/narizaka
