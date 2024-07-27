@@ -24,7 +24,7 @@ You can support our work by donation:
 <details><summary>wav2vec2-bert</summary>
 <p>
   
-  - 600M params: https://huggingface.co/Yehor/w2v-bert-2.0-uk
+  - 600M params: https://huggingface.co/Yehor/w2v-bert-2.0-uk-v2 (demo: https://huggingface.co/spaces/Yehor/w2v-bert-2.0-uk-v2-demo)
     
 </p>
 </details>
