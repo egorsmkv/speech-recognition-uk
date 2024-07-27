@@ -312,7 +312,7 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 ### Text Enhancement
 
-- Punctuation and capitalization model: https://huggingface.co/dchaplinsky/punctuation_uk_bert
+- Punctuation and capitalization model: https://huggingface.co/dchaplinsky/punctuation_uk_bert (demo: https://huggingface.co/spaces/Yehor/punctuation-uk)
 
 # 📢 Text-to-Speech
 
