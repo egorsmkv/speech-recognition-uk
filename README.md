@@ -10,13 +10,6 @@ This repository collects links to models, datasets, and tools for Ukrainian **Sp
 - Join our Speech Recognition Group in Telegram: https://t.me/speech_recognition_uk
 - Join our Speech Synthesis Group in Telegram: https://t.me/speech_synthesis_uk
 
-## Donate
-
-You can support our work:
-
-- via Monobank: https://send.monobank.ua/jar/3Saxixsdua
-- via Patreon: https://www.patreon.com/yehor_smoliakov
-
 ## 🎤 Speech-to-Text
 
 ### 📦 Implementations
