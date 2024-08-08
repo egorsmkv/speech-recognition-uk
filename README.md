@@ -135,9 +135,11 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 <details><summary>whisper</summary>
 <p>
 
-- whisper: https://github.com/openai/whisper
+- official whisper: https://github.com/openai/whisper
 - whisper (small, fine-tuned for Ukrainian): https://github.com/egorsmkv/whisper-ukrainian
 - whisper (large, fine-tuned for Ukrainian): https://huggingface.co/arampacha/whisper-large-uk-2
+- https://huggingface.co/mitchelldehaven/whisper-medium-uk
+- https://huggingface.co/mitchelldehaven/whisper-large-v2-uk
 
 </p>
 </details>
