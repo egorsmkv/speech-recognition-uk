@@ -293,6 +293,7 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 - Mozilla Common Voice has the Ukrainian dataset: https://commonvoice.mozilla.org/uk/datasets
 - M-AILABS Ukrainian Corpus  Ukrainian: http://www.caito.de/data/Training/stt_tts/uk_UK.tgz
+- Espresso TV subset: https://blog.gdeltproject.org/visual-explorer-quick-workflow-for-downloading-belarusian-russian-ukrainian-transcripts-translations/
 
 #### Cleaned Common Voice 10 (test set)
 
