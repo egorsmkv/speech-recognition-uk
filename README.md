@@ -277,6 +277,16 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 - Storage Share powered by Nextcloud: https://nx16725.your-storageshare.de/s/f4NYHXdEw2ykZKa
 
+#### FLEURS
+
+- Ukrainian subset: https://huggingface.co/datasets/google/fleurs/viewer/uk_ua/train
+
+#### YODAS2
+
+- Ukrainian subsets:
+  - https://huggingface.co/datasets/espnet/yodas2/tree/main/data/uk000
+  - https://huggingface.co/datasets/espnet/yodas2/tree/main/data/uk100
+
 #### Companies
 
 - Mozilla Common Voice has the Ukrainian dataset: https://commonvoice.mozilla.org/uk/datasets
