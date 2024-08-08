@@ -387,6 +387,14 @@ https://user-images.githubusercontent.com/96498856/170762023-d4b3f6d7-d756-4cb7-
 </p>
 </details>
 
+<details><summary>FastPitch</summary>
+<p>
+
+- NVIDIA FastPitch: https://huggingface.co/theodotus/tts_uk_fastpitch
+  
+</p>
+</details>
+
 <details><summary>Balacoon TTS</summary>
 <p>
 
