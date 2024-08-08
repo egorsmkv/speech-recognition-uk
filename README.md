@@ -6,9 +6,9 @@ This repository collects links to models, datasets, and tools for Ukrainian **Sp
 
 ## Community
 
-- **Join our Discord server** - https://discord.gg/nmUCXz55 - where we're talking about AI
-- Join our Speech Recognition Group in Telegram: https://t.me/speech_recognition_uk
-- Join our Speech Synthesis Group in Telegram: https://t.me/speech_synthesis_uk
+- **Discord**: https://discord.gg/yVAjkBgmt4
+- Speech Recognition: https://t.me/speech_recognition_uk
+- Speech Synthesis: https://t.me/speech_synthesis_uk
 
 ## 🎤 Speech-to-Text
 
