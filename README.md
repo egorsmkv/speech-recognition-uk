@@ -91,6 +91,15 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   </p>
 </details>
 
+
+<details><summary>Conformer-CTC</summary>
+<p>
+
+- https://huggingface.co/taras-sereda/uk-pods-conformer
+  
+  </p>
+</details>
+
 <details><summary>VOSK</summary>
 <p>
   
