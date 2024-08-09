@@ -297,6 +297,10 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 - M-AILABS Ukrainian Corpus  Ukrainian: http://www.caito.de/data/Training/stt_tts/uk_UK.tgz
 - Espreso TV subset: https://blog.gdeltproject.org/visual-explorer-quick-workflow-for-downloading-belarusian-russian-ukrainian-transcripts-translations/
 
+#### Ukrainian podcasts
+
+- https://huggingface.co/datasets/taras-sereda/uk-pods
+
 #### Cleaned Common Voice 10 (test set)
 
 - Repository: https://github.com/egorsmkv/cv10-uk-testset-clean
