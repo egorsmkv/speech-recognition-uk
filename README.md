@@ -349,6 +349,13 @@ Without stresses:
 
 ### 📦 Implementations
 
+<details><summary>StyleTTS2</summary>
+<p>
+
+- [StyleTTS2 demo & the code](https://huggingface.co/spaces/patriotyk/styletts2-ukrainian)
+
+</p>
+</details>
 
 <details><summary>P-Flow TTS</summary>
 <p>
