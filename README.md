@@ -6,7 +6,7 @@ This repository collects links to models, datasets, and tools for Ukrainian **Sp
 
 ## Community
 
-- **Discord**: https://discord.gg/yVAjkBgmt4
+- **Discord**: https://bit.ly/discord-uds
 - Speech Recognition: https://t.me/speech_recognition_uk
 - Speech Synthesis: https://t.me/speech_synthesis_uk
 
