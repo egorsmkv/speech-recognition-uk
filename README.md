@@ -333,6 +333,12 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 - Punctuation and capitalization model: https://huggingface.co/dchaplinsky/punctuation_uk_bert (demo: https://huggingface.co/spaces/Yehor/punctuation-uk)
 
+#### Aligners
+
+- Aligner for wav2vec2-bert models: https://github.com/egorsmkv/w2v2-bert-aligner
+- Aligner based on FasterWhisper (mostly for TTS): https://github.com/patriotyk/narizaka
+- Aligner based on Kaldi: https://github.com/proger/uk
+
 ## 📢 Text-to-Speech
 
 Test sentence with stresses:
