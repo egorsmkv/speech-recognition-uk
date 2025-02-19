@@ -156,7 +156,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 | Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
-| Yehor/w2v-xls-r-uk | -| - | - | - | - | - |
+| Yehor/w2v-xls-r-uk | 0.2024 | 0.0364 | 79.76% | - | - | - |
 | robinhad/wav2vec2-xls-r-300m-uk | 0.2736 | 0.0537 | 72.64% | - | - | - |
 | arampacha/wav2vec2-xls-r-1b-uk | 0.1652 | 0.0293 | 83.48% | 0.0945 | 0.0175 | 90.55% |
 
