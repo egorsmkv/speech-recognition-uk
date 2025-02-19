@@ -163,7 +163,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 | Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
-| Yehor/w2v-bert-uk | 0.0727 | 0.0151 | 92.73% | 0.0655 | 0.0139 | 93.45% |
+| Yehor/w2v-bert-uk (F16) | 0.066 | 0.0134 | 93.4% | - | - | - |
 
 #### `wav2vec2`
 
