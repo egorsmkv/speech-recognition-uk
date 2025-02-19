@@ -28,6 +28,8 @@ This repository collects links to models, datasets, and tools for Ukrainian **Sp
 <p>
   
 - 300M params (with language model based on Wikipedia texts): https://huggingface.co/Yehor/w2v-xls-r-uk
+- 300M params: https://huggingface.co/robinhad/wav2vec2-xls-r-300m-uk
+- 1B params: https://huggingface.co/arampacha/wav2vec2-xls-r-1b-uk
 
 You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   
