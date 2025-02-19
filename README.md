@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository collects links to models, datasets, and tools for Ukrainian **Speech-to-Text** and **Text-to-Speech** projects.
+This repository collects links to models, datasets, and tools for Ukrainian **Speech-to-Text** and **Text-to-Speech**.
 
 ## Community
 
