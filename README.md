@@ -229,6 +229,7 @@ This model supports text punctuation and capitalization
 | medium | 0.1873 | 0.044 | 81.27% |
 | large (v1) | 0.1642 | 0.0393 | 83.58% |
 | large (v2) | 0.1372 | 0.0318 | 86.28% |
+| turbo | 0.2283 | 0.0705 | 77.17% |
 
 Fine-tuned version for Ukrainian:
 
