@@ -26,20 +26,7 @@ This repository collects links to models, datasets, and tools for Ukrainian **Sp
 <details><summary>wav2vec2</summary>
 <p>
   
-- 1B params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-lm
-- 1B params (with language model based on News texts): https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-news-lm
-- 1B params (with binary language model based on News texts): https://huggingface.co/Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm
-- 1B params (with language model: OSCAR): https://huggingface.co/arampacha/wav2vec2-xls-r-1b-uk
-- 1B params (with language model: OSCAR): https://huggingface.co/arampacha/wav2vec2-xls-r-1b-uk-cv
-- 300M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-lm
-- 300M params (but without language model): https://huggingface.co/robinhad/wav2vec2-xls-r-300m-uk
-- 300M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-small-lm
-- 300M params (with language model based on small portion of data) and noised data: https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-small-lm-noisy
-- 300M params (with language model based on News texts): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-news-lm
-- 300M params (with language model based on Wikipedia texts): https://huggingface.co/Yehor/wav2vec2-xls-r-300m-uk-with-wiki-lm
-- 90M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-base-uk-with-small-lm
-- 90M params (with language model based on small portion of data): https://huggingface.co/Yehor/wav2vec2-xls-r-base-uk-with-cv-lm
-- ONNX model (1B and 300M models): https://github.com/egorsmkv/ukrainian-onnx-model
+- 300M params (with language model based on Wikipedia texts): https://huggingface.co/Yehor/w2v-xls-r-uk
 
 You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   
@@ -169,12 +156,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 | Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
-| Yehor/wav2vec2-xls-r-1b-uk-with-lm | 0.1807 | 0.0317 | 81.93% | 0.1193 | 0.0218 | 88.07% |
-| Yehor/wav2vec2-xls-r-1b-uk-with-binary-news-lm | 0.1807 | 0.0317 | 81.93% | 0.0997 | 0.0191 | 90.03% |
-| Yehor/wav2vec2-xls-r-300m-uk-with-lm | 0.2906 | 0.0548 | 70.94% | 0.172 | 0.0355 | 82.8% |
-| Yehor/wav2vec2-xls-r-300m-uk-with-news-lm | 0.2027 | 0.0365 | 79.73% | 0.0929 | 0.019 | 90.71% |
-| Yehor/wav2vec2-xls-r-300m-uk-with-wiki-lm | 0.2027 | 0.0365 | 79.73% | 0.1045 | 0.0208 | 89.55% |
-| Yehor/wav2vec2-xls-r-base-uk-with-small-lm | 0.4441 | 0.0975 | 55.59% | 0.2878 | 0.0711 | 71.22% |
+| Yehor/w2v-xls-r-uk | -| - | - | - | - | - |
 | robinhad/wav2vec2-xls-r-300m-uk | 0.2736 | 0.0537 | 72.64% | - | - | - |
 | arampacha/wav2vec2-xls-r-1b-uk | 0.1652 | 0.0293 | 83.48% | 0.0945 | 0.0175 | 90.55% |
 
