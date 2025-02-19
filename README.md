@@ -411,11 +411,11 @@ https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5
 ### 📚 Datasets
 
 - **Open Text-to-Speech voices for 🇺🇦 Ukrainian**: https://huggingface.co/datasets/Yehor/opentts-uk
-  - Voice "[LADA](https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/lada)", female
-  - Voice "[TETIANA](https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/tetiana)", female
-  - Voice "[KATERYNA](https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/kateryna)", female
-  - Voice "[MYKYTA](https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/mykyta)", male
-  - Voice "[OLEKSA](https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/oleksa)", male
+  - Voice LADA, female
+  - Voice TETIANA, female
+  - Voice KATERYNA, female
+  - Voice MYKYTA, male
+  - Voice OLEKSA, male
 
 ### ⭐ Related works
 
