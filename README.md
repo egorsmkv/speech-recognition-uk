@@ -447,3 +447,4 @@ https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5
 
 - Tool to make high quality text to speech (TTS) corpus from audio + text books: https://github.com/patriotyk/narizaka
 - A model to do Text Normalization: https://huggingface.co/skypro1111/mbart-large-50-verbalization
+- Audio Aesthetics for opentts-uk: https://huggingface.co/datasets/Yehor/opentts-uk-aesthetics
