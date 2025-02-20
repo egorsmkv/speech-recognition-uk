@@ -133,7 +133,7 @@ Models: https://huggingface.co/Yehor/vosk-uk
 <details><summary>Flashlight</summary>
 <p>
 
-- Flashlight Conformer: https://github.com/egorsmkv/flashlight-ukrainian
+- Flashlight Conformer: https://huggingface.co/Yehor/flashlight-uk
 
 </p>
 </details>
