@@ -36,6 +36,13 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   </p>
 </details>
 
+<details><summary>HuBERT</summary>
+<p>
+  
+- hubert-uk: https://huggingface.co/Yehor/hubert-uk
+</p>
+</details>
+
 <details><summary>data2vec</summary>
 <p>
   
@@ -155,6 +162,13 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 | Yehor/w2v-xls-r-uk | 0.2024 | 0.0364 | 79.76% | - | - | - |
 | robinhad/wav2vec2-xls-r-300m-uk | 0.2736 | 0.0537 | 72.64% | - | - | - |
 | arampacha/wav2vec2-xls-r-1b-uk | 0.1652 | 0.0293 | 83.48% | 0.0945 | 0.0175 | 90.55% |
+
+#### `HuBERT`
+
+| Model | WER | CER | WER Accuracy, % | CER Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
+|-------|-----|-----|-----------------|-----------------|-------------------|-------------------|---------------------------|
+| Yehor/hubert-uk (F16) | 37.07% | 6.87% | 62.93% | 93.13% | - | - | - |
+
 
 #### `Citrinet`
 
