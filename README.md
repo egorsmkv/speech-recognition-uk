@@ -158,7 +158,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 #### `Citrinet`
 
-[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k) is used as the LM
+[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-uk/tree/main/news/lm-4gram-500k) is used as the LM
 
 | Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
@@ -181,7 +181,7 @@ This model supports text punctuation and capitalization
 
 #### `Squeezeformer`
 
-[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k) is used as the LM
+[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-uk/tree/main/news/lm-4gram-500k) is used as the LM
 
 | Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
@@ -191,7 +191,7 @@ This model supports text punctuation and capitalization
 
 #### `Flashlight`
 
-[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k) is used as the LM
+[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-uk/tree/main/news/lm-4gram-500k) is used as the LM
 
 | Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
 |-------|-----|-----|------------|------------------|-----|------------|
@@ -302,7 +302,7 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 #### Language models
 
-- Ukrainian LMs: https://huggingface.co/Yehor/kenlm-ukrainian
+- Ukrainian LMs: https://huggingface.co/Yehor/kenlm-uk
 
 #### Inverse Text Normalization:
 
