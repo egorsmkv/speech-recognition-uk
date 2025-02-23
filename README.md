@@ -167,7 +167,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 | Model | WER | CER | Accuracy, % |
 |-------|-----|-----|-------------|
-| Yehor/hubert-uk (F16) | 37.07% | 6.87% | words: 62.93%, chars: 93.13% |
+| Yehor/hubert-uk (F16) | 37.07% | 6.87% | words: 62.93% |
 
 
 #### `Citrinet`
