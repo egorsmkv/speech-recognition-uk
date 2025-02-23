@@ -149,6 +149,9 @@ Models: https://huggingface.co/Yehor/vosk-uk
 
 This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv10-uk-testset-clean).
 
+- **WER**: Word Error Rate
+- **CER**: Character Error Rate
+
 #### `wav2vec2-bert`
 
 | Model | WER | CER | Accuracy, % |
