@@ -243,6 +243,7 @@ This model supports text punctuation and capitalization
 | medium | 18.73% | 4.4% | 81.27% |
 | large (v1) | 16.42 | 3.93% | 83.58% |
 | large (v2) | 13.72% | 3.18% | 86.28% |
+| large (v3) | 20.53% | 5.28% | 79.478% |
 | turbo | 22.83% | 7.05% | 77.17% |
 
 Fine-tuned version for Ukrainian:
