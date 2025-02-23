@@ -272,6 +272,10 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 - Ukrainian subset: https://huggingface.co/datasets/google/fleurs/viewer/uk_ua/train
 
+#### Ukrainian broadcast
+
+- Ukrainian broadcast speech: https://huggingface.co/datasets/Yehor/broadcast-speech-uk
+
 #### YODAS2
 
 - Ukrainian subsets:
