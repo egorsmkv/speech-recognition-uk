@@ -154,104 +154,104 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 #### `wav2vec2-bert`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| Yehor/w2v-bert-uk (F16) | 6.6% | 1.34% | words: 93.4% |
+| Yehor/w2v-bert-uk (F16) | 6.6% | 1.34% | 93.4% |
 
 #### `wav2vec2`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| Yehor/w2v-xls-r-uk | 20.24% | 3.64% | words: 79.76% |
-| robinhad/wav2vec2-xls-r-300m-uk | 27.36% | 5.37% | words: 72.64% |
-| arampacha/wav2vec2-xls-r-1b-uk | 16.52% | 2.93% | words: 83.48% |
+| Yehor/w2v-xls-r-uk | 20.24% | 3.64% | 79.76% |
+| robinhad/wav2vec2-xls-r-300m-uk | 27.36% | 5.37% | 72.64% |
+| arampacha/wav2vec2-xls-r-1b-uk | 16.52% | 2.93% | 83.48% |
 
 #### `HuBERT`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|-------------|
-| Yehor/hubert-uk (F16) | 37.07% | 6.87% | words: 62.93% |
+| Yehor/hubert-uk (F16) | 37.07% | 6.87% | 62.93% |
 
 
 #### `Citrinet`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| nvidia/stt_uk_citrinet_1024_gamma_0_25 | 4.32% | 0.94% | words: 95.68% |
-| neongeckocom/stt_uk_citrinet_512_gamma_0_25 | 7.46% | 1.6% | words: 92.54% |
+| nvidia/stt_uk_citrinet_1024_gamma_0_25 | 4.32% | 0.94% | 95.68% |
+| neongeckocom/stt_uk_citrinet_512_gamma_0_25 | 7.46% | 1.6% | 92.54% |
 
 #### `ContextNet`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| theodotus/stt_uk_contextnet_512 | 6.69% | 1.45% | words: 93.31% |
+| theodotus/stt_uk_contextnet_512 | 6.69% | 1.45% | 93.31% |
 
 #### `FastConformer P&C`
 
 This model supports text punctuation and capitalization
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| theodotus/stt_ua_fastconformer_hybrid_large_pc | 4% | 1.02% | words: 96% |
+| theodotus/stt_ua_fastconformer_hybrid_large_pc | 4% | 1.02% | 96% |
 
 #### `Squeezeformer`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| theodotus/stt_uk_squeezeformer_ctc_xs | 10.78% | 2.29% | words: 89.22% |
-| theodotus/stt_uk_squeezeformer_ctc_sm | 8.2% | 1.75% | words: 91.8% |
-| theodotus/stt_uk_squeezeformer_ctc_ml | 5.91% | 1.26% | words: 94.09% |
+| theodotus/stt_uk_squeezeformer_ctc_xs | 10.78% | 2.29% | 89.22% |
+| theodotus/stt_uk_squeezeformer_ctc_sm | 8.2% | 1.75% | 91.8% |
+| theodotus/stt_uk_squeezeformer_ctc_ml | 5.91% | 1.26% | 94.09% |
 
 #### `Flashlight`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| Flashlight Conformer | 19.15% | 2.44% | words: 80.85% |
+| Flashlight Conformer | 19.15% | 2.44% | 80.85% |
 
 #### `data2vec`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| robinhad/data2vec-large-uk | 31.17% | 7.31% | words: 68.83% |
+| robinhad/data2vec-large-uk | 31.17% | 7.31% | 68.83% |
 
 #### `VOSK`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| v3 | 53.25% | 38.78% | words: 46.75% |
+| v3 | 53.25% | 38.78% | 46.75% |
 
 #### `m-ctc-t`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| speechbrain/m-ctc-t-large | 57% | 10.94% | words: 43% |
+| speechbrain/m-ctc-t-large | 57% | 10.94% | 43% |
 
 #### `whisper`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| tiny | 63.08% | 18.59% | words: 36.92% |
-| base | 52.1% | 14.08% | words: 47.9% |
-| small | 30.57% | 7.64% | words: 69.43% |
-| medium | 18.73% | 4.4% | words: 81.27% |
-| large (v1) | 16.42 | 3.93% | words: 83.58% |
-| large (v2) | 13.72% | 3.18% | words: 86.28% |
-| turbo | 22.83% | 7.05% | words: 77.17% |
+| tiny | 63.08% | 18.59% | 36.92% |
+| base | 52.1% | 14.08% | 47.9% |
+| small | 30.57% | 7.64% | 69.43% |
+| medium | 18.73% | 4.4% | 81.27% |
+| large (v1) | 16.42 | 3.93% | 83.58% |
+| large (v2) | 13.72% | 3.18% | 86.28% |
+| turbo | 22.83% | 7.05% | 77.17% |
 
 Fine-tuned version for Ukrainian:
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| small | 27.04% | 5.65% | words: 72.96% |
-| large | 24.82% | 5.5% | words: 75.18% |
+| small | 27.04% | 5.65% | 72.96% |
+| large | 24.82% | 5.5% | 75.18% |
 
 If you want to fine-tune a Whisper model on own data, then use this repository: https://github.com/egorsmkv/whisper-ukrainian
 
 #### `DeepSpeech`
 
-| Model | WER | CER | Accuracy, % |
+| Model | WER | CER | Accuracy (words), % |
 |-------|-----|-----|------------|
-| v0.5 | 70.25% | 20.09% | words: 29.75% |
+| v0.5 | 70.25% | 20.09% | 29.75% |
 
 
 ### 📖 Development
