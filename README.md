@@ -151,33 +151,31 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 #### `wav2vec2-bert`
 
-| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
-|-------|-----|-----|------------|------------------|-----|------------|
-| Yehor/w2v-bert-uk (F16) | 0.066 | 0.0134 | 93.4% | - | - | - |
+| Model | WER | CER | Accuracy, % |
+|-------|-----|-----|------------|
+| Yehor/w2v-bert-uk (F16) | 0.066 | 0.0134 | 93.4% |
 
 #### `wav2vec2`
 
-| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
-|-------|-----|-----|------------|------------------|-----|------------|
-| Yehor/w2v-xls-r-uk | 0.2024 | 0.0364 | 79.76% | - | - | - |
-| robinhad/wav2vec2-xls-r-300m-uk | 0.2736 | 0.0537 | 72.64% | - | - | - |
-| arampacha/wav2vec2-xls-r-1b-uk | 0.1652 | 0.0293 | 83.48% | 0.0945 | 0.0175 | 90.55% |
+| Model | WER | CER | Accuracy, % |
+|-------|-----|-----|------------|
+| Yehor/w2v-xls-r-uk | 0.2024 | 0.0364 | 79.76% |
+| robinhad/wav2vec2-xls-r-300m-uk | 0.2736 | 0.0537 | 72.64% |
+| arampacha/wav2vec2-xls-r-1b-uk | 0.1652 | 0.0293 | 83.48% |
 
 #### `HuBERT`
 
-| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
-|-------|-----|-----|-------------|-------------------|-------------------|---------------------------|
-| Yehor/hubert-uk (F16) | 37.07% | 6.87% | words: 62.93%, chars: 93.13% | | - | - |
+| Model | WER | CER | Accuracy, % |
+|-------|-----|-----|-------------|
+| Yehor/hubert-uk (F16) | 37.07% | 6.87% | words: 62.93%, chars: 93.13% |
 
 
 #### `Citrinet`
 
-[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-uk/tree/main/news/lm-4gram-500k) is used as the LM
-
-| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
-|-------|-----|-----|------------|------------------|-----|------------|
-| nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0432 | 0.0094 | 95.68% | 0.0352 | 0.0079 | 96.48% |
-| neongeckocom/stt_uk_citrinet_512_gamma_0_25 | 0.0746 | 0.016 | 92.54% | 0.0563 | 0.0128 | 94.37% |
+| Model | WER | CER | Accuracy, % |
+|-------|-----|-----|------------|
+| nvidia/stt_uk_citrinet_1024_gamma_0_25 | 0.0432 | 0.0094 | 95.68% |
+| neongeckocom/stt_uk_citrinet_512_gamma_0_25 | 0.0746 | 0.016 | 92.54% |
 
 #### `ContextNet`
 
@@ -189,27 +187,23 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 This model supports text punctuation and capitalization
 
-| Model | WER | CER | Accuracy, % | WER<sup>+P&C</sup> | CER<sup>+P&C</sup> | Accuracy<sup>+P&C</sup>, % |
-|-------|-----|-----|------------|------------------|-----|------------|
-| theodotus/stt_ua_fastconformer_hybrid_large_pc | 0.0400 | 0.0102 | 96.00% | 0.0710 | 0.0167 | 92.90% |
+| Model | WER | CER | Accuracy, % |
+|-------|-----|-----|------------|
+| theodotus/stt_ua_fastconformer_hybrid_large_pc | 0.0400 | 0.0102 | 96.00% |
 
 #### `Squeezeformer`
 
-[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-uk/tree/main/news/lm-4gram-500k) is used as the LM
-
-| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
-|-------|-----|-----|------------|------------------|-----|------------|
-| theodotus/stt_uk_squeezeformer_ctc_xs | 0.1078 | 0.0229 | 89.22% | 0.0777 | 0.0174 | 92.23% |
-| theodotus/stt_uk_squeezeformer_ctc_sm | 0.082 | 0.0175 | 91.8% | 0.0605 | 0.0142 | 93.95% |
-| theodotus/stt_uk_squeezeformer_ctc_ml | 0.0591 | 0.0126 | 94.09% | 0.0451 | 0.0105 | 95.49% |
+| Model | WER | CER | Accuracy, % |
+|-------|-----|-----|------------|
+| theodotus/stt_uk_squeezeformer_ctc_xs | 0.1078 | 0.0229 | 89.22% |
+| theodotus/stt_uk_squeezeformer_ctc_sm | 0.082 | 0.0175 | 91.8% |
+| theodotus/stt_uk_squeezeformer_ctc_ml | 0.0591 | 0.0126 | 94.09% |
 
 #### `Flashlight`
 
-[lm-4gram-500k](https://huggingface.co/Yehor/kenlm-uk/tree/main/news/lm-4gram-500k) is used as the LM
-
-| Model | WER | CER | Accuracy, % | WER<sup>+LM</sup> | CER<sup>+LM</sup> | Accuracy<sup>+LM</sup>, % |
-|-------|-----|-----|------------|------------------|-----|------------|
-| Flashlight Conformer | 0.1915 | 0.0244 | 80.85% | 0.0907 | 0.0198 | 90.93% |
+| Model | WER | CER | Accuracy, % |
+|-------|-----|-----|------------|
+| Flashlight Conformer | 0.1915 | 0.0244 | 80.85% |
 
 #### `data2vec`
 
