@@ -203,6 +203,12 @@ This model supports text punctuation and capitalization
 | theodotus/stt_uk_squeezeformer_ctc_sm | 8.2% | 1.75% | 91.8% |
 | theodotus/stt_uk_squeezeformer_ctc_ml | 5.91% | 1.26% | 94.09% |
 
+#### `Conformer-CTC`
+
+| Model | WER | CER | Accuracy (words) |
+|-------|-----|-----|------------|
+| taras-sereda/uk-pods-conformer | 6.75% | 1.41% | 93.25% |
+
 #### `Flashlight`
 
 | Model | WER | CER | Accuracy (words) |
