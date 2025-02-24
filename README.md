@@ -133,6 +133,11 @@ Models: https://huggingface.co/Yehor/vosk-uk
 - https://huggingface.co/mitchelldehaven/whisper-medium-uk
 - https://huggingface.co/mitchelldehaven/whisper-large-v2-uk
 
+Quantized variants:
+
+- https://huggingface.co/Yehor/whisper-large-v2-quantized-uk
+- https://huggingface.co/Yehor/whisper-large-v3-turbo-quantized-uk
+
 </p>
 </details>
 
