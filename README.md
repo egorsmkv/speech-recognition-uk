@@ -124,7 +124,7 @@ Models: https://huggingface.co/Yehor/vosk-uk
 </p>
 </details>
 
-<details><summary>whisper</summary>
+<details><summary>Whisper</summary>
 <p>
 
 - official whisper: https://github.com/openai/whisper
@@ -238,7 +238,7 @@ This model supports text punctuation and capitalization
 |-------|-----|-----|------------|
 | speechbrain/m-ctc-t-large | 57% | 10.94% | 43% |
 
-#### `whisper`
+#### `Whisper`
 
 | Model | WER | CER | Accuracy (words) |
 |-------|-----|-----|------------|
