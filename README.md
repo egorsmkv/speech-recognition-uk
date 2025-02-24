@@ -337,6 +337,7 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 #### Aligners
 
+- NeMo Forced Aligner: https://github.com/NVIDIA/NeMo/tree/main/tools/nemo_forced_aligner
 - Aligner for wav2vec2-bert models: https://github.com/egorsmkv/w2v2-bert-aligner
 - Aligner based on FasterWhisper (mostly for TTS): https://github.com/patriotyk/narizaka
 - Aligner based on Kaldi: https://github.com/proger/uk
