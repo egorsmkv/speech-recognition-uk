@@ -269,7 +269,7 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 ### 📖 Development
 
-- How to train own model using Kaldi (in Russian): https://github.com/egorsmkv/speech-recognition-uk/blob/master/vosk-model-creation/INSTRUCTION.md
+- [How to train own model using Kaldi][1]
 - How to train a KenLM model based on Ukrainian Wikipedia data: https://github.com/egorsmkv/ukwiki-kenlm
 - Export a traced JIT version of wav2vec2 models: https://github.com/egorsmkv/wav2vec2-jit
 
@@ -456,3 +456,5 @@ https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5
 - Tool to make high quality text to speech (TTS) corpus from audio + text books: https://github.com/patriotyk/narizaka
 - A model to do Text Normalization: https://huggingface.co/skypro1111/mbart-large-50-verbalization
 - Audio Aesthetics for opentts-uk: https://huggingface.co/datasets/Yehor/opentts-uk-aesthetics
+
+[1]: https://github.com/egorsmkv/speech-recognition-uk/tree/master/speech-to-text/vosk-model-creation
