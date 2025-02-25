@@ -255,12 +255,12 @@ This model supports text punctuation and capitalization
 | large (v3) | 20.53% | 5.28% | 79.478% |
 | turbo | 22.83% | 7.05% | 77.17% |
 
-Fine-tuned version for Ukrainian:
+Quantized versions:
 
 | Model | WER | CER | Accuracy (words) |
 |-------|-----|-----|------------|
-| small | 27.04% | 5.65% | 72.96% |
-| large | 24.82% | 5.5% | 75.18% |
+| Yehor/whisper-large-v2-quantized-uk | 14.95% | 4.23% | 85.05% |
+| whisper-large-v3-turbo-quantized-uk | 12.75% | 3.25% | 87.25% |
 
 If you want to fine-tune a Whisper model on own data, then use this repository: https://github.com/egorsmkv/whisper-ukrainian
 
