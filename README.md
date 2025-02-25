@@ -91,6 +91,32 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
   </p>
 </details>
 
+<details><summary>Whisper</summary>
+<p>
+
+- official whisper: https://github.com/openai/whisper
+- whisper (small, fine-tuned for Ukrainian): https://github.com/egorsmkv/whisper-ukrainian
+- whisper (large, fine-tuned for Ukrainian): https://huggingface.co/arampacha/whisper-large-uk-2
+- https://huggingface.co/mitchelldehaven/whisper-medium-uk
+- https://huggingface.co/mitchelldehaven/whisper-large-v2-uk
+
+Quantized variants:
+
+- https://huggingface.co/Yehor/whisper-large-v2-quantized-uk
+- https://huggingface.co/Yehor/whisper-large-v3-turbo-quantized-uk
+
+</p>
+</details>
+
+
+<details><summary>Flashlight</summary>
+<p>
+
+- Flashlight Conformer: https://huggingface.co/Yehor/flashlight-uk
+
+</p>
+</details>
+
 <details><summary>data2vec</summary>
 <p>
   
@@ -121,32 +147,6 @@ Models: https://huggingface.co/Yehor/vosk-uk
 <p>
 
 - m-ctc-t-large: https://huggingface.co/speechbrain/m-ctc-t-large
-
-</p>
-</details>
-
-<details><summary>Whisper</summary>
-<p>
-
-- official whisper: https://github.com/openai/whisper
-- whisper (small, fine-tuned for Ukrainian): https://github.com/egorsmkv/whisper-ukrainian
-- whisper (large, fine-tuned for Ukrainian): https://huggingface.co/arampacha/whisper-large-uk-2
-- https://huggingface.co/mitchelldehaven/whisper-medium-uk
-- https://huggingface.co/mitchelldehaven/whisper-large-v2-uk
-
-Quantized variants:
-
-- https://huggingface.co/Yehor/whisper-large-v2-quantized-uk
-- https://huggingface.co/Yehor/whisper-large-v3-turbo-quantized-uk
-
-</p>
-</details>
-
-
-<details><summary>Flashlight</summary>
-<p>
-
-- Flashlight Conformer: https://huggingface.co/Yehor/flashlight-uk
 
 </p>
 </details>
