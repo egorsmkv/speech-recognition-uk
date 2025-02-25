@@ -260,7 +260,7 @@ Quantized versions:
 | Model | WER | CER | Accuracy (words) |
 |-------|-----|-----|------------|
 | Yehor/whisper-large-v2-quantized-uk | 14.95% | 4.23% | 85.05% |
-| whisper-large-v3-turbo-quantized-uk | 12.75% | 3.25% | 87.25% |
+| Yehor/whisper-large-v3-turbo-quantized-uk | 12.75% | 3.25% | 87.25% |
 
 If you want to fine-tune a Whisper model on own data, then use this repository: https://github.com/egorsmkv/whisper-ukrainian
 
