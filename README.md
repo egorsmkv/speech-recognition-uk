@@ -161,8 +161,8 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 | Model | WER | CER | Accuracy (words) |
 |-------|-----|-----|------------|
-| Yehor/w2v-bert-uk (F16) | 6.6% | 1.34% | 93.4% |
-| Yehor/w2v-bert-uk-v2.1 (F16) | 17.34% | 3.33% | 82.66% |
+| Yehor/w2v-bert-uk (FP16) | 6.6% | 1.34% | 93.4% |
+| Yehor/w2v-bert-uk-v2.1 (FP16) | 17.34% | 3.33% | 82.66% |
 
 #### `wav2vec2`
 
@@ -176,7 +176,7 @@ This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv1
 
 | Model | WER | CER | Accuracy (words) |
 |-------|-----|-----|-------------|
-| Yehor/hubert-uk (F16) | 37.07% | 6.87% | 62.93% |
+| Yehor/hubert-uk (FP16) | 37.07% | 6.87% | 62.93% |
 
 
 #### `Citrinet`
