@@ -345,6 +345,10 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 - Aligner based on FasterWhisper (mostly for TTS): https://github.com/patriotyk/narizaka
 - Aligner based on Kaldi: https://github.com/proger/uk
 
+#### Other
+
+- A space to calculate ASR metrics: https://huggingface.co/spaces/Yehor/evaluate-asr-outputs
+
 ## 📢 Text-to-Speech
 
 Test sentence with stresses:
