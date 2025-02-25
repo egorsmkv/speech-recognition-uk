@@ -64,6 +64,8 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 <details><summary>FastConformer</summary>
 <p>
 
+
+- FastConformer Hybrid Transducer-CTC Large P&C: https://huggingface.co/nvidia/stt_ua_fastconformer_hybrid_large_pc
 - FastConformer Hybrid Transducer-CTC Large P&C: https://huggingface.co/theodotus/stt_ua_fastconformer_hybrid_large_pc
     - Demo: https://huggingface.co/spaces/theodotus/asr-uk-punctuation-capitalization
   
@@ -199,6 +201,7 @@ This model supports text punctuation and capitalization
 
 | Model | WER | CER | Accuracy (words) |
 |-------|-----|-----|------------|
+| nvidia/stt_ua_fastconformer_hybrid_large_pc | - | - | - |
 | theodotus/stt_ua_fastconformer_hybrid_large_pc | 4% | 1.02% | 96% |
 
 #### `Squeezeformer`
