@@ -201,7 +201,7 @@ This model supports text punctuation and capitalization
 
 | Model | WER | CER | Accuracy (words) |
 |-------|-----|-----|------------|
-| nvidia/stt_ua_fastconformer_hybrid_large_pc | - | - | - |
+| nvidia/stt_ua_fastconformer_hybrid_large_pc | 4.52% | 1% | 95.48% |
 | theodotus/stt_ua_fastconformer_hybrid_large_pc | 4% | 1.02% | 96% |
 
 #### `Squeezeformer`
