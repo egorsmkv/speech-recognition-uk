@@ -463,6 +463,7 @@ Charsiu G2P:
 Other:
   - https://github.com/dmort27/epitran
   - https://montreal-forced-aligner.readthedocs.io/en/v1.0/pretrained_models.html
+  - https://huggingface.co/darkproger/ukpron
 
 #### Misc
 
