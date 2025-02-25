@@ -277,12 +277,12 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 #### Compiled dataset from different open sources + Companies + Community = 188.31GB / ~1200 hours 💪
 
-- Storage Share powered by Nextcloud: https://nx16725.your-storageshare.de/s/cAbcBeXtdz7znDN (use [Wget](https://www.gnu.org/software/wget) to download, downloading in a browser has speed limitations)
+- Dataset: https://nx16725.your-storageshare.de/s/cAbcBeXtdz7znDN (use [Wget](https://www.gnu.org/software/wget) to download, downloading in a browser has speed limitations)
 - Torrent file: https://academictorrents.com/details/fcf8bb60c59e9eb583df003d54ed61776650beb8 (188.31 GB)
 
 #### Voice of America (398 hours)
 
-- Storage Share powered by Nextcloud: https://nx16725.your-storageshare.de/s/f4NYHXdEw2ykZKa
+- Dataset: https://nx16725.your-storageshare.de/s/f4NYHXdEw2ykZKa
 
 #### FLEURS
 
