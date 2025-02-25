@@ -345,21 +345,6 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 - Aligner based on FasterWhisper (mostly for TTS): https://github.com/patriotyk/narizaka
 - Aligner based on Kaldi: https://github.com/proger/uk
 
-#### Grapheme-to-Phoneme
-
-ipa-uk:
-  - https://github.com/lang-uk/ipa-uk
-  - https://github.com/patriotyk/ipa-uk
-
-Charsiu G2P:
-  - https://huggingface.co/charsiu/g2p_multilingual_byT5_tiny_16_layers_100
-  - https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100
-  - https://huggingface.co/charsiu/g2p_multilingual_mT5_small
-
-Other:
-  - https://github.com/dmort27/epitran
-  - https://montreal-forced-aligner.readthedocs.io/en/v1.0/pretrained_models.html
-
 ## 📢 Text-to-Speech
 
 Test sentence with stresses:
@@ -450,11 +435,11 @@ https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5
 ### 📚 Datasets
 
 - **Open Text-to-Speech voices for 🇺🇦 Ukrainian**: https://huggingface.co/datasets/Yehor/opentts-uk
-  - Voice LADA, female
-  - Voice TETIANA, female
-  - Voice KATERYNA, female
-  - Voice MYKYTA, male
-  - Voice OLEKSA, male
+  - [Voice LADA][2], female
+  - [Voice TETIANA][3], female
+  - [Voice KATERYNA][4], female
+  - [Voice MYKYTA][5], male
+  - [Voice OLEKSA][6], male
 
 ### ⭐ Related works
 
@@ -464,6 +449,21 @@ https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5
 - https://github.com/lang-uk/ukrainian-word-stress
 - https://github.com/egorsmkv/ukrainian-accentor
 
+#### Grapheme-to-Phoneme
+
+ipa-uk:
+  - https://github.com/lang-uk/ipa-uk
+  - https://github.com/patriotyk/ipa-uk
+
+Charsiu G2P:
+  - https://huggingface.co/charsiu/g2p_multilingual_byT5_tiny_16_layers_100
+  - https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100
+  - https://huggingface.co/charsiu/g2p_multilingual_mT5_small
+
+Other:
+  - https://github.com/dmort27/epitran
+  - https://montreal-forced-aligner.readthedocs.io/en/v1.0/pretrained_models.html
+
 #### Misc
 
 - Tool to make high quality text to speech (TTS) corpus from audio + text books: https://github.com/patriotyk/narizaka
@@ -471,3 +471,8 @@ https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5
 - Audio Aesthetics for opentts-uk: https://huggingface.co/datasets/Yehor/opentts-uk-aesthetics
 
 [1]: https://github.com/egorsmkv/speech-recognition-uk/tree/master/speech-to-text/vosk-model-creation
+[2]: https://huggingface.co/datasets/speech-uk/opentts-lada
+[3]: https://huggingface.co/datasets/speech-uk/opentts-tetiana
+[4]: https://huggingface.co/datasets/speech-uk/opentts-kateryna
+[5]: https://huggingface.co/datasets/speech-uk/opentts-mykyta
+[6]: https://huggingface.co/datasets/speech-uk/opentts-oleksa
