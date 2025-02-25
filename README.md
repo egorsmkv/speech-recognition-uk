@@ -275,7 +275,7 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 ### 📚 Datasets
 
-#### Compiled dataset from different open sources + Companies + Community = 188.31GB / ~1200 hours 💪
+#### Compiled dataset: ~1200 hours 💪
 
 - Dataset: https://nx16725.your-storageshare.de/s/cAbcBeXtdz7znDN (use [Wget](https://www.gnu.org/software/wget) to download, downloading in a browser has speed limitations)
 - Torrent file: https://academictorrents.com/details/fcf8bb60c59e9eb583df003d54ed61776650beb8 (188.31 GB)
@@ -298,12 +298,6 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
   - https://huggingface.co/datasets/espnet/yodas2/tree/main/data/uk000
   - https://huggingface.co/datasets/espnet/yodas2/tree/main/data/uk100
 
-#### Companies
-
-- Mozilla Common Voice has the Ukrainian dataset: https://commonvoice.mozilla.org/uk/datasets
-- M-AILABS Ukrainian Corpus  Ukrainian: http://www.caito.de/data/Training/stt_tts/uk_UK.tgz
-- Espreso TV subset: https://blog.gdeltproject.org/visual-explorer-quick-workflow-for-downloading-belarusian-russian-ukrainian-transcripts-translations/
-
 #### Ukrainian podcasts
 
 - https://huggingface.co/datasets/taras-sereda/uk-pods
@@ -317,14 +311,14 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 - Transcriptions: https://www.dropbox.com/s/ohj3y2cq8f4207a/transcriptions.zip?dl=0
 - Audio files: https://www.dropbox.com/s/v8crgclt9opbrv1/data.zip?dl=0
 
-#### Community
-
-- VoxForge Repository: http://www.repository.voxforge1.org/downloads/uk/Trunk/
-
 #### Other
 
 - ASR Corpus created using a Telegram bot for Ukrainian: https://huggingface.co/datasets/Yehor/tg-voices-uk
 - Speech Dataset with Ukrainian: https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/
+- Mozilla Common Voice has the Ukrainian dataset: https://commonvoice.mozilla.org/uk/datasets
+- M-AILABS Ukrainian Corpus  Ukrainian: http://www.caito.de/data/Training/stt_tts/uk_UK.tgz
+- Espreso TV subset: https://blog.gdeltproject.org/visual-explorer-quick-workflow-for-downloading-belarusian-russian-ukrainian-transcripts-translations/
+- VoxForge Repository: http://www.repository.voxforge1.org/downloads/uk/Trunk/
 
 ### ⭐ Related works
 
