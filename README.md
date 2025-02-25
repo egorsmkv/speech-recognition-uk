@@ -43,12 +43,6 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 </p>
 </details>
 
-<details><summary>data2vec</summary>
-<p>
-  
-- data2vec-large: https://huggingface.co/robinhad/data2vec-large-uk
-</p>
-</details>
 
 <details><summary>Citrinet</summary>
 <p>
@@ -95,6 +89,13 @@ You can check demos out here: https://github.com/egorsmkv/wav2vec2-uk-demo
 - https://huggingface.co/taras-sereda/uk-pods-conformer
   
   </p>
+</details>
+
+<details><summary>data2vec</summary>
+<p>
+  
+- data2vec-large: https://huggingface.co/robinhad/data2vec-large-uk
+</p>
 </details>
 
 <details><summary>VOSK</summary>
