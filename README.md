@@ -330,7 +330,7 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 - Ukrainian LMs: https://huggingface.co/Yehor/kenlm-uk
 
-#### Inverse Text Normalization:
+#### Inverse Text Normalization
 
 - WFST for Ukrainian Inverse Text Normalization: https://github.com/lociko/ukraine_itn_wfst
 
