@@ -345,6 +345,21 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 - Aligner based on FasterWhisper (mostly for TTS): https://github.com/patriotyk/narizaka
 - Aligner based on Kaldi: https://github.com/proger/uk
 
+#### Grapheme-to-Phoneme
+
+ipa-uk:
+  - https://github.com/lang-uk/ipa-uk
+  - https://github.com/patriotyk/ipa-uk
+
+Charsiu G2P:
+  - https://huggingface.co/charsiu/g2p_multilingual_byT5_tiny_16_layers_100
+  - https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100
+  - https://huggingface.co/charsiu/g2p_multilingual_mT5_small
+
+Other:
+  - https://github.com/dmort27/epitran
+  - https://montreal-forced-aligner.readthedocs.io/en/v1.0/pretrained_models.html
+
 ## 📢 Text-to-Speech
 
 Test sentence with stresses:
