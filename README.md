@@ -17,8 +17,8 @@ This repository collects links to models, datasets, and tools for Ukrainian **Sp
 <details><summary>wav2vec2-bert</summary>
 <p>
   
-  - 600M params: https://huggingface.co/Yehor/w2v-bert-uk (demo: https://huggingface.co/spaces/Yehor/w2v-bert-uk-demo)
   - 600M params: https://huggingface.co/Yehor/w2v-bert-uk-v2.1 (demo: https://huggingface.co/spaces/Yehor/w2v-bert-uk-v2.1-demo)
+  - 600M params: https://huggingface.co/Yehor/w2v-bert-uk (demo: https://huggingface.co/spaces/Yehor/w2v-bert-uk-demo)
     
 </p>
 </details>
