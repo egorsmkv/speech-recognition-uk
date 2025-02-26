@@ -125,6 +125,13 @@ Quantized variants:
 </p>
 </details>
 
+<details><summary>MMS</summary>
+<p>
+  
+- mms-1b-fl102: https://huggingface.co/facebook/mms-1b-fl102
+</p>
+</details>
+
 <details><summary>data2vec</summary>
 <p>
   
@@ -436,6 +443,14 @@ https://user-images.githubusercontent.com/96498856/170762023-d4b3f6d7-d756-4cb7-
  - [Balacoon TTS](https://huggingface.co/spaces/balacoon/tts), voices of Lada, Tetiana and Mykyta. [Blog post](https://balacoon.com/blog/uk_release/) on model release.
 
 https://github.com/clementruhm/speech-recognition-uk/assets/87281103/a13493ce-a5e5-4880-8b72-42b02feeee50
+
+</p>
+</details>
+
+<details><summary>MMS</summary>
+<p>
+
+- https://huggingface.co/facebook/mms-tts-ukr
 
 </p>
 </details>
