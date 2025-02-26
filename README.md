@@ -116,6 +116,15 @@ Quantized variants:
 </p>
 </details>
 
+<details><summary>OWSM, OWSM-CTC, and OWLS</summary>
+<p>
+
+- https://huggingface.co/espnet/owsm_v3.2
+- https://huggingface.co/espnet/owsm_ctc_v3.2_ft_1B
+- https://huggingface.co/espnet/owls_025B_180K
+
+</p>
+</details>
 
 <details><summary>Flashlight</summary>
 <p>
