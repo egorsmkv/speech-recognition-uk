@@ -6,7 +6,7 @@ This repository collects links to models, datasets, and tools for Ukrainian **Sp
 
 ## Speech-UK initiative
 
-We publish datasets/models in Hugging Face organization, check it out:
+We have datasets/models/**leaderboards** on Hugging Face, check it out:
 
 - https://huggingface.co/speech-uk
 
