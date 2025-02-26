@@ -279,10 +279,9 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 ### 📚 Datasets
 
-#### Compiled dataset: ~1200 hours 💪
+#### Compiled dataset: ~1200 hours
 
-- Dataset: https://nx16725.your-storageshare.de/s/cAbcBeXtdz7znDN (use [Wget](https://www.gnu.org/software/wget) to download, downloading in a browser has speed limitations)
-- Torrent file: https://academictorrents.com/details/fcf8bb60c59e9eb583df003d54ed61776650beb8 (188.31 GB)
+- Dataset: https://nx16725.your-storageshare.de/s/cAbcBeXtdz7znDN, use [Wget](https://www.gnu.org/software/wget) to download, downloading in a browser has speed limitations, or use [torrent file][8]
 
 #### Voice of America: ~390 hours
 
@@ -292,11 +291,11 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 
 - Ukrainian subset: https://huggingface.co/datasets/google/fleurs/viewer/uk_ua/train
 
-#### Ukrainian broadcast
+#### Ukrainian broadcast: ~300 hours
 
 - Ukrainian broadcast speech: https://huggingface.co/datasets/Yehor/broadcast-speech-uk
 
-#### YODAS2
+#### YODAS2: ~400 hours
 
 - Ukrainian subsets:
   - https://huggingface.co/datasets/espnet/yodas2/tree/main/data/uk000
@@ -481,3 +480,4 @@ Other:
 [4]: https://huggingface.co/datasets/speech-uk/opentts-kateryna
 [5]: https://huggingface.co/datasets/speech-uk/opentts-mykyta
 [6]: https://huggingface.co/datasets/speech-uk/opentts-oleksa
+[8]: https://academictorrents.com/details/fcf8bb60c59e9eb583df003d54ed61776650beb8
