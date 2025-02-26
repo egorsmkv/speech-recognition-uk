@@ -4,6 +4,12 @@
 
 This repository collects links to models, datasets, and tools for Ukrainian **Speech-to-Text** and **Text-to-Speech**.
 
+## Speech-UK initiative
+
+We publish datasets/models in Hugging Face organization, check it out:
+
+- https://huggingface.co/speech-uk
+
 ## Community
 
 - **Discord**: https://bit.ly/discord-uds
