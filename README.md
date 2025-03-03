@@ -240,6 +240,28 @@ This model supports text punctuation and capitalization
 |-------|-----|-----|------------|
 | taras-sereda/uk-pods-conformer | 6.75% | 1.41% | 93.25% |
 
+#### `Whisper`
+
+| Model | WER | CER | Accuracy (words) |
+|-------|-----|-----|------------|
+| tiny | 63.08% | 18.59% | 36.92% |
+| base | 52.1% | 14.08% | 47.9% |
+| small | 30.57% | 7.64% | 69.43% |
+| medium | 18.73% | 4.4% | 81.27% |
+| large (v1) | 16.42% | 3.93% | 83.58% |
+| large (v2) | 13.72% | 3.18% | 86.28% |
+| large (v3) | 20.53% | 5.28% | 79.478% |
+| turbo | 22.83% | 7.05% | 77.17% |
+
+Quantized versions:
+
+| Model | WER | CER | Accuracy (words) |
+|-------|-----|-----|------------|
+| Yehor/whisper-large-v2-quantized-uk | 14.95% | 4.23% | 85.05% |
+| Yehor/whisper-large-v3-turbo-quantized-uk | 12.75% | 3.25% | 87.25% |
+
+If you want to fine-tune a Whisper model on own data, then use this repository: https://github.com/egorsmkv/whisper-ukrainian
+
 #### `Flashlight`
 
 | Model | WER | CER | Accuracy (words) |
@@ -263,28 +285,6 @@ This model supports text punctuation and capitalization
 | Model | WER | CER | Accuracy (words) |
 |-------|-----|-----|------------|
 | speechbrain/m-ctc-t-large | 57% | 10.94% | 43% |
-
-#### `Whisper`
-
-| Model | WER | CER | Accuracy (words) |
-|-------|-----|-----|------------|
-| tiny | 63.08% | 18.59% | 36.92% |
-| base | 52.1% | 14.08% | 47.9% |
-| small | 30.57% | 7.64% | 69.43% |
-| medium | 18.73% | 4.4% | 81.27% |
-| large (v1) | 16.42% | 3.93% | 83.58% |
-| large (v2) | 13.72% | 3.18% | 86.28% |
-| large (v3) | 20.53% | 5.28% | 79.478% |
-| turbo | 22.83% | 7.05% | 77.17% |
-
-Quantized versions:
-
-| Model | WER | CER | Accuracy (words) |
-|-------|-----|-----|------------|
-| Yehor/whisper-large-v2-quantized-uk | 14.95% | 4.23% | 85.05% |
-| Yehor/whisper-large-v3-turbo-quantized-uk | 12.75% | 3.25% | 87.25% |
-
-If you want to fine-tune a Whisper model on own data, then use this repository: https://github.com/egorsmkv/whisper-ukrainian
 
 #### `DeepSpeech`
 
