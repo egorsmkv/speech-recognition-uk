@@ -12,7 +12,9 @@ We have datasets/models/**leaderboards** on Hugging Face, check it out:
 
 ## Community
 
-- **Discord**: https://bit.ly/discord-uds
+[![Discord](https://img.shields.io/discord/1199769227192713226?label=&logo=discord&logoColor=white&color=7289DA&style=flat-square)](https://bit.ly/discord-uds)
+
+- Discord: https://bit.ly/discord-uds
 - Speech Recognition: https://t.me/speech_recognition_uk
 - Speech Synthesis: https://t.me/speech_synthesis_uk
 
