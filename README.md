@@ -261,6 +261,8 @@ Quantized versions:
 |-------|-----|-----|------------|
 | Yehor/whisper-large-v2-quantized-uk | 14.95% | 4.23% | 85.05% |
 | Yehor/whisper-large-v3-turbo-quantized-uk | 12.75% | 3.25% | 87.25% |
+| efficient-speech/lite-whisper-large-v3-turbo | 42.89% | 12.59% | 57.11% |
+| efficient-speech/lite-whisper-large-v3-turbo-acc | 17.79% | 4.34% | 82.21% |
 
 If you want to fine-tune a Whisper model on own data, then use this repository: https://github.com/egorsmkv/whisper-ukrainian
 
