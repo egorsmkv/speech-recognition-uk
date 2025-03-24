@@ -115,6 +115,10 @@ Quantized variants:
 - https://huggingface.co/Yehor/whisper-large-v2-quantized-uk
 - https://huggingface.co/Yehor/whisper-large-v3-turbo-quantized-uk
 
+Lite Whisper:
+
+- https://huggingface.co/collections/efficient-speech/lite-whisper-67c0fa0e01cef6d4b9a1ab5d
+
 </p>
 </details>
 
