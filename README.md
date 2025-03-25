@@ -377,6 +377,7 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 #### Other
 
 - A space to calculate ASR metrics: https://huggingface.co/spaces/Yehor/evaluate-asr-outputs
+- A space to see ASR outputs: https://huggingface.co/spaces/Yehor/see-asr-outputs
 
 ## 📢 Text-to-Speech
 
