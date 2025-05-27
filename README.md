@@ -510,7 +510,9 @@ Other:
 #### Misc
 
 - Tool to make high quality text to speech (TTS) corpus from audio + text books: https://github.com/patriotyk/narizaka
-- A model to do Text Normalization: https://huggingface.co/skypro1111/mbart-large-50-verbalization
+- Text Normalization:
+  - https://huggingface.co/skypro1111/m2m100-ukr-verbalization (see [the demo][9])
+  - https://huggingface.co/skypro1111/mbart-large-50-verbalization
 - Audio Aesthetics for opentts-uk: https://huggingface.co/datasets/Yehor/opentts-uk-aesthetics
 
 [1]: https://github.com/egorsmkv/speech-recognition-uk/tree/master/speech-to-text/vosk-model-creation
@@ -520,3 +522,5 @@ Other:
 [5]: https://huggingface.co/datasets/speech-uk/opentts-mykyta
 [6]: https://huggingface.co/datasets/speech-uk/opentts-oleksa
 [8]: https://academictorrents.com/details/fcf8bb60c59e9eb583df003d54ed61776650beb8
+[9]: https://huggingface.co/spaces/skypro1111/verbalizator_2.0
+
