@@ -181,6 +181,14 @@ Models: https://huggingface.co/Yehor/vosk-uk
 </p>
 </details>
 
+<details><summary>moonshine-tiny-uk</summary>
+<p>
+
+- moonshine-tiny-uk: https://huggingface.co/UsefulSensors/moonshine-tiny-uk
+
+</p>
+</details>
+
 ### 📊 Benchmarks
 
 This benchmark uses [Common Voice 10 test split](https://github.com/egorsmkv/cv10-uk-testset-clean).
@@ -299,6 +307,12 @@ If you want to fine-tune a Whisper model on own data, then use this repository: 
 | Model | WER | CER | Accuracy (words) |
 |-------|-----|-----|------------|
 | v0.5 | 70.25% | 20.09% | 29.75% |
+
+#### `moonshine-tiny-uk`
+
+| Model | WER | CER | Accuracy (words) |
+|-------|-----|-----|------------|
+| UsefulSensors/moonshine-tiny-uk | 24.54% | 7.58% | 75.46% |
 
 
 ### 📖 Development
